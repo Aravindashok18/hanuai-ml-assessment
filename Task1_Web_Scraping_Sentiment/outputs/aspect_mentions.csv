@@ -1,0 +1,190 @@
+review_id,aspect,sentence,p_neg,p_neu,p_pos,label
+BB18470962-A9E9632DCA,Store Service & Staff,"What made this transaction so pleasant was dealing with your sales representative, Jessica.",0.0046522077,0.0035399997,0.99180776,positive
+BB18470962-3A24FAAD65,Build Quality & Defects,Left ear bud is defective and couldn't return or exchange,0.99560744,0.00073402206,0.00365847,negative
+BB18470962-3A24FAAD65,Returns & Policies,Left ear bud is defective and couldn't return or exchange,0.99510694,0.0013585793,0.0035345051,negative
+BB18470962-C22D599D93,Delivery & Pickup,"came faster than the expected date, clean and safely packaged no damages.",0.008277305,0.0068935524,0.9848291,positive
+BB18470962-91AEF66BC2,Price & Value,I really liked the product and the price is reasonable.,0.011535816,0.021368645,0.96709555,positive
+BB18470962-5B03B3AFE6,Store Service & Staff,Excellent product and great customer service Oakville location,0.0011094931,0.0011532932,0.99773717,positive
+BB18470962-0DEF656EBD,Sound Quality,The AirPods is an amazing product have a good sound and it's comfortable.,0.0023682686,0.0068492186,0.99078256,positive
+BB18470962-0DEF656EBD,Fit & Comfort,The AirPods is an amazing product have a good sound and it's comfortable.,0.0019901793,0.010222583,0.9877872,positive
+BB18470962-A6F8E11448,Sound Quality,The sound is fabulous and I do find the tap controls easier to manage than the old versions.,0.0027804228,0.005657133,0.9915624,positive
+BB18470962-A6F8E11448,Features & Controls,The sound is fabulous and I do find the tap controls easier to manage than the old versions.,0.008117567,0.012935374,0.97894704,positive
+BB18470962-A6F8E11448,Battery & Charging,The charge up fast and the charger pack holds a lot of juice too,0.028174002,0.015531498,0.95629454,positive
+BB18470962-A6F8E11448,Battery & Charging,using that it can be days between charging the actual ear buds!,0.8836501,0.021626094,0.094723865,negative
+BB18470962-A6F8E11448,Fit & Comfort,"While shorter, they do feel like they are a slightly less better fit for my women's ears so I may invest in some of the additional cushion plugs to adapt them.",0.61408347,0.08508391,0.3008326,negative
+BB18470962-A6F8E11448,Price & Value,Got a great deal at $150!,0.025681825,0.020365035,0.95395315,positive
+BB18470962-6AE80E1811,Fit & Comfort,Purchased these expensive ear pods abd they do not fit my ears.unfortunately unable to try before purchase and they are not returnable.waisted lot os money for nothing ended up going back to the store to purchase a different brand and fit.shock z,0.9949378,0.0010361641,0.0040260637,negative
+BB18470962-6AE80E1811,Price & Value,Purchased these expensive ear pods abd they do not fit my ears.unfortunately unable to try before purchase and they are not returnable.waisted lot os money for nothing ended up going back to the store to purchase a different brand and fit.shock z,0.9980562,0.0003121191,0.0016317784,negative
+BB18470962-6AE80E1811,Store Service & Staff,Purchased these expensive ear pods abd they do not fit my ears.unfortunately unable to try before purchase and they are not returnable.waisted lot os money for nothing ended up going back to the store to purchase a different brand and fit.shock z,0.99824846,0.00022394284,0.001527652,negative
+BB18470962-6AE80E1811,Returns & Policies,Purchased these expensive ear pods abd they do not fit my ears.unfortunately unable to try before purchase and they are not returnable.waisted lot os money for nothing ended up going back to the store to purchase a different brand and fit.shock z,0.9980683,0.00023213793,0.0016995961,negative
+BB18470962-22B973B5B0,Battery & Charging,I like that the battery lasts for a long time.,0.021494944,0.028773297,0.9497317,positive
+BB18470962-22B973B5B0,Features & Controls,Downsides are that they have buttons instead of taps that don't have any capabilities around next tracks or music.,0.9494751,0.012092635,0.038432267,negative
+BB18470962-22B973B5B0,Sound Quality,The sound is also a lot more staticky than the previous models,0.98053795,0.0038217504,0.015640376,negative
+BB18470962-ED5CB471C0,Delivery & Pickup,Delivery took only 2 days.,0.61096954,0.035770018,0.35326046,negative
+BB18470962-ED5CB471C0,Price & Value,"The product was on promotion with a discount, which was beneficial.",0.09573243,0.11923596,0.7850317,positive
+BB18470962-2C719A4F2B,Store Service & Staff,i think i have to go to apple store ..,0.75070006,0.01777635,0.23152348,negative
+BB18470962-2C719A4F2B,Sound Quality,i dont know whats wrong with left airpod i didnt use right one it has aa different kind of sounds in it..,0.745335,0.050960664,0.20370431,negative
+BB18470962-CACEC42FBE,Fit & Comfort,"The buds are way to hard for ears , pains after sometime of use",0.9748062,0.00899428,0.016199628,negative
+BB18470962-ED4B2F49F2,Sound Quality,The sound quality from these airpods is fine but one of them doesn't fit my right ear.,0.56491524,0.07174491,0.36333993,negative
+BB18470962-ED4B2F49F2,Fit & Comfort,The sound quality from these airpods is fine but one of them doesn't fit my right ear.,0.5871328,0.06859609,0.34427115,negative
+BB18470962-ED4B2F49F2,Returns & Policies,I went back to BestBuy within 15 days and they refused to take it back citing hygiene issues.,0.997971,0.00047365137,0.001555359,negative
+BB18470962-ED4B2F49F2,Price & Value,"I checked online and Costco as well as Apple takes them back, so not sure why BestBuy has this policy.",0.8777718,0.06699128,0.055236913,negative
+BB18470962-ED4B2F49F2,Returns & Policies,"I checked online and Costco as well as Apple takes them back, so not sure why BestBuy has this policy.",0.906191,0.03341344,0.060395647,negative
+BB18470962-643F4DCBA1,Delivery & Pickup,"We haven't actually opened it yet since I bought it 3 weeks early, but the pickup process was very quick and smooth.",0.020671219,0.014015112,0.96531373,positive
+BB18470962-643F4DCBA1,Store Service & Staff,"I encountered no issues with the staff, and they emailed me the receipt within minutes, along with the details of the Best Buy Protection Plan and what to expect from the coverage I purchased with the product.",0.0270524,0.025530148,0.9474174,positive
+BB18470962-643F4DCBA1,Returns & Policies,"I encountered no issues with the staff, and they emailed me the receipt within minutes, along with the details of the Best Buy Protection Plan and what to expect from the coverage I purchased with the product.",0.074146815,0.04933518,0.876518,positive
+BB18470962-643F4DCBA1,Delivery & Pickup,"So far, the online ordering experience has been convenient and hassle-free.",0.012470314,0.023141246,0.9643884,positive
+BB18470962-643F4DCBA1,Delivery & Pickup,Might buy online again for faster and easier pickup in the future.,0.14642254,0.037582714,0.81599474,positive
+BB18470962-62135980E3,Delivery & Pickup,Online purchase and store pick up quick and easy.,0.03220896,0.023912467,0.94387865,positive
+BB18470962-62135980E3,Store Service & Staff,Online purchase and store pick up quick and easy.,0.027113535,0.018104885,0.9547816,positive
+BB18470962-AB58C4847A,Price & Value,"they came close, basically new, for a super low price.",0.18629715,0.18136312,0.6323397,positive
+BB18470962-1D7B133632,Sound Quality,When i play any game on my iPhone then this pair of airpods are start cracking ( disturbance) sound after some minutes.,0.9670999,0.007353905,0.025546165,negative
+BB18470962-1D7B133632,Connectivity & Compatibility,When i play any game on my iPhone then this pair of airpods are start cracking ( disturbance) sound after some minutes.,0.9117713,0.020235365,0.067993306,negative
+BB18470962-1A2836C6AE,Fit & Comfort,"My girlfriend loves them, super comfortable in either of our ears as well.",0.015154929,0.07852101,0.906324,positive
+BB18470962-1A2836C6AE,Sound Quality,Sound is plenty good for casual use.,0.0150021855,0.12862912,0.8563687,positive
+BB18470962-5DA939C095,Price & Value,"The basic iPad was too basic, the Pro too expensive for my typical content consumption.",0.9569602,0.017309554,0.025730234,negative
+BB18470962-5DA939C095,Connectivity & Compatibility,The M4 was maybe overkill but ensures forward compatibility.,0.17412983,0.12059713,0.70527303,positive
+BB18470962-5DA939C095,Price & Value,For the price I should be able to get 120 hertz but oh well.,0.8539982,0.037260104,0.108741656,negative
+BB18470962-5DA939C095,Connectivity & Compatibility,"It's fast, though the fingerprint reader glitchy, The none-OLED screen is okay and the brightness level fine indoors.",0.26377136,0.083487876,0.6527408,positive
+BB18470962-5DA939C095,Delivery & Pickup,Have yet to pick up a pen.,0.94153047,0.02116188,0.03730761,negative
+BB18470962-5DA939C095,Store Service & Staff,The store was low on stock but snagged one.,0.7508581,0.025258364,0.22388357,negative
+BB18470962-F55E652A67,Fit & Comfort,The earbuds are large and don't fit my ears well.,0.98807484,0.003949637,0.007975561,negative
+BB18470962-F55E652A67,Fit & Comfort,They fall out easily.,0.91906977,0.044759557,0.036170665,negative
+BB18470962-60F718B4F1,Sound Quality,"Great product , great sound quality and long playing time Value for money Cheaper in price",0.005033049,0.015299402,0.97966754,positive
+BB18470962-60F718B4F1,Price & Value,"Great product , great sound quality and long playing time Value for money Cheaper in price",0.0134474775,0.025326228,0.9612262,positive
+BB18470962-341B74C692,Fit & Comfort,I was concerned at first that they might fall out of my ears due to their design but was pleasantly surprised when they didn't.,0.029910043,0.10851477,0.8615752,positive
+BB18470962-341B74C692,Battery & Charging,I was also impressed with the battery capacity of the charging case and it compares well with other brands like the Bose sport earbuds I also own.,0.00837206,0.009765604,0.98186237,positive
+BB18470962-341B74C692,Battery & Charging,"Unfortunately like all small electronics the battery life is around four hours before they run out of juice, hence the need for a second pair but is still impressive for the size of the buds.",0.6724091,0.03110634,0.29648453,negative
+BB18470962-341B74C692,Connectivity & Compatibility,"Unfortunately like all small electronics the battery life is around four hours before they run out of juice, hence the need for a second pair but is still impressive for the size of the buds.",0.3094537,0.07389988,0.61664647,positive
+BB18470962-9181E02C03,Price & Value,"Great thanks to Sale Associate Claudia and Store Manager Erin (maybe Eric, sorry) for their amazing problem solving and quick resolution for our broken airpods.",0.031436853,0.02088644,0.9476767,positive
+BB18470962-9181E02C03,Build Quality & Defects,"Great thanks to Sale Associate Claudia and Store Manager Erin (maybe Eric, sorry) for their amazing problem solving and quick resolution for our broken airpods.",0.26272836,0.032098647,0.70517296,positive
+BB18470962-9181E02C03,Store Service & Staff,"Great thanks to Sale Associate Claudia and Store Manager Erin (maybe Eric, sorry) for their amazing problem solving and quick resolution for our broken airpods.",0.005885733,0.0012921535,0.9928221,positive
+BB18470962-BCA5661211,Battery & Charging,I was shocked that there was no USB charge cable with my airpods.,0.9554735,0.011742692,0.032783896,negative
+BB18470962-BCA5661211,Features & Controls,I was shocked that there was no USB charge cable with my airpods.,0.94517154,0.012792744,0.042035826,negative
+BB18470962-BCA5661211,Price & Value,You spend lots of money on products which doesnot have cables.,0.7569912,0.16553542,0.07747332,negative
+BB18470962-063217FC3F,Sound Quality,Good sound still doesn't stay in my ear properly.,0.97450155,0.008652869,0.016845552,negative
+BB18470962-063217FC3F,Connectivity & Compatibility,Disconnects from the tv if any change is made to tv.,0.6360397,0.19344182,0.17051847,negative
+BB18470962-063217FC3F,Fit & Comfort,Easy to reconnect but is a pain,0.55252165,0.13883759,0.30864078,negative
+BB18470962-063217FC3F,Connectivity & Compatibility,Easy to reconnect but is a pain,0.81987065,0.04669904,0.13343033,negative
+BB18470962-ADEC0EC52A,Fit & Comfort,The only downside is the fit,0.41302708,0.17038985,0.41658315,positive
+BB18470962-7182C0F21B,Fit & Comfort,It's make me in ear pain don't know why it was so hurting badly,0.92474204,0.019757936,0.055500027,negative
+BB18470962-032376F9DA,Store Service & Staff,Wasn't very happy with staff that was walking around but no one bothered asking if we needed help,0.9903895,0.0028510704,0.00675934,negative
+BB18470962-F7176BDD0C,Delivery & Pickup,The order processed very fast and got the item and it's working nice,0.01803278,0.011492806,0.9704744,positive
+BB18470962-F60778719E,Fit & Comfort,They are not fitting in my ear.,0.9884105,0.006860879,0.0047286167,negative
+BB18470962-F60778719E,Store Service & Staff,Customer rep told they wont be able to exchange with other models.,0.98761344,0.0029503913,0.009436202,negative
+BB18470962-F60778719E,Returns & Policies,Customer rep told they wont be able to exchange with other models.,0.98856926,0.003057552,0.008373204,negative
+BB18470962-4385CED189,Build Quality & Defects,It's fake AirPod never buy it.,0.9929635,0.0019174455,0.0051189917,negative
+BB18470962-4385CED189,Returns & Policies,Absolutely it will return.,0.1936715,0.066352196,0.7399763,positive
+BB18470962-4385CED189,Delivery & Pickup,The delivery company is the worst ever I experienced.,0.9996507,8.10614e-05,0.0002682971,negative
+BB18470962-4385CED189,Delivery & Pickup,It delivered two days later than the expected date.,0.9872613,0.0012760784,0.011462576,negative
+BB18470962-AEA2ADD0CD,Sound Quality,Says thebsound is better than the previous type he had.,0.022405319,0.020435723,0.9571589,positive
+BB18470962-B8A4D574F6,Sound Quality,Very nice can't hear any other sounds Speakers good sounds,0.00995062,0.012788199,0.97726125,positive
+BB18470962-045AEF30BF,Sound Quality,"It's not often but they fall out my ears, still good though audio is nice and they connected really easy",0.19944449,0.07592875,0.7246267,positive
+BB18470962-045AEF30BF,Fit & Comfort,"It's not often but they fall out my ears, still good though audio is nice and they connected really easy",0.19797044,0.11932205,0.6827075,positive
+BB18470962-045AEF30BF,Connectivity & Compatibility,"It's not often but they fall out my ears, still good though audio is nice and they connected really easy",0.12147523,0.09750559,0.78101915,positive
+BB18470962-52A99DBA03,Price & Value,"I'd love to give 5 stars but I'm confused as to why I purchased an iPhone 17 pro max out right full price, and 3 pairs of AirPod 4s and all I didn't get any gift cards, in store credit, or anything like that.",0.9335967,0.025745504,0.040657777,negative
+BB18470962-52A99DBA03,Connectivity & Compatibility,"I'd love to give 5 stars but I'm confused as to why I purchased an iPhone 17 pro max out right full price, and 3 pairs of AirPod 4s and all I didn't get any gift cards, in store credit, or anything like that.",0.8810512,0.040724475,0.07822437,negative
+BB18470962-52A99DBA03,Store Service & Staff,"I'd love to give 5 stars but I'm confused as to why I purchased an iPhone 17 pro max out right full price, and 3 pairs of AirPod 4s and all I didn't get any gift cards, in store credit, or anything like that.",0.9649685,0.009975439,0.025056023,negative
+BB18470962-52A99DBA03,Returns & Policies,"I'd love to give 5 stars but I'm confused as to why I purchased an iPhone 17 pro max out right full price, and 3 pairs of AirPod 4s and all I didn't get any gift cards, in store credit, or anything like that.",0.97267634,0.008961009,0.018362647,negative
+BB18470962-52A99DBA03,Price & Value,"I spend a good amount of money at many different Best Buy locations in Montreal, all with the same account and I never got the ""gift card"" or ""in store credit"" for spending the amount that I did in a week for Christmas.",0.6619361,0.06005699,0.27800697,negative
+BB18470962-52A99DBA03,Store Service & Staff,"I spend a good amount of money at many different Best Buy locations in Montreal, all with the same account and I never got the ""gift card"" or ""in store credit"" for spending the amount that I did in a week for Christmas.",0.84104055,0.021297744,0.13766176,negative
+BB18470962-52A99DBA03,Returns & Policies,"I spend a good amount of money at many different Best Buy locations in Montreal, all with the same account and I never got the ""gift card"" or ""in store credit"" for spending the amount that I did in a week for Christmas.",0.9299355,0.012886739,0.057177696,negative
+BB18470962-52A99DBA03,Price & Value,"Just a little annoyed that I spent so much at Best Buy, my friend spend a significant amount less than I did in the same week at the Best Buy and she got the 300$ gift card.",0.82237476,0.05557489,0.12205034,negative
+BB18470962-52A99DBA03,Returns & Policies,"Just a little annoyed that I spent so much at Best Buy, my friend spend a significant amount less than I did in the same week at the Best Buy and she got the 300$ gift card.",0.8932273,0.026222873,0.08054989,negative
+BB18470962-52A99DBA03,Returns & Policies,(They didn't return it to me and lost it in the little time it took me to go back and try to get a new phone) it was a big hassle.,0.99729174,0.00038025962,0.0023278936,negative
+BB18470962-E87298D9E3,Delivery & Pickup,Product came fairly quickly and in good condition.,0.012431351,0.010921805,0.97664684,positive
+BB18470962-D69A9B669F,Sound Quality,"Sound quality wise, they're an amazing upgrade.",0.001955309,0.0023282142,0.9957165,positive
+BB18470962-D69A9B669F,Fit & Comfort,"Size wise, the ""stems"" of each airpod is shorter which can make them feel less stable in your ears than the older generations.",0.88248914,0.023121545,0.09438926,negative
+BB18470962-D69A9B669F,Fit & Comfort,"I had no problems fitting my old airpods 2 in my ears to sit comfortably and snug but with these ones, I find my right airpod does not sit in my right ear properly.",0.96475893,0.0076900306,0.027551036,negative
+BB18470962-D69A9B669F,Features & Controls,"I had no problems fitting my old airpods 2 in my ears to sit comfortably and snug but with these ones, I find my right airpod does not sit in my right ear properly.",0.9689024,0.0069941464,0.024103487,negative
+BB18470962-D69A9B669F,Price & Value,Also I got these on sale for $128.99 during the black friday sale and honestly I wouldn't pay more for these so I'd highly suggest waiting for these to go on sale before you purchase them!,0.4491882,0.06390668,0.48690513,positive
+BB18470962-C31FB9436A,Sound Quality,I don't like the way you pause the music or audio on the item.,0.97048753,0.014991749,0.014520728,negative
+BB18470962-C31FB9436A,Features & Controls,I don't like the way you pause the music or audio on the item.,0.96558464,0.011754924,0.022660522,negative
+BB18470962-C31FB9436A,Features & Controls,I am forever trying to find the area of the tip to squeeze to.,0.8125227,0.014367271,0.17311001,negative
+BB18470962-C31FB9436A,Features & Controls,Pause the music.,0.49987867,0.13414328,0.365978,negative
+BB18470962-67CF2CC4E3,Delivery & Pickup,Shipping was swift product in perfect condition easy to pick up item,0.00670504,0.00871035,0.9845846,positive
+BB18470962-6306115B6C,Sound Quality,It's not easily compatible with non apple devices Also sound quality and fit is not as much as it costs,0.93131423,0.022771766,0.045913935,negative
+BB18470962-6306115B6C,Fit & Comfort,It's not easily compatible with non apple devices Also sound quality and fit is not as much as it costs,0.89383066,0.037936915,0.06823243,negative
+BB18470962-6306115B6C,Price & Value,It's not easily compatible with non apple devices Also sound quality and fit is not as much as it costs,0.9318317,0.023085225,0.04508309,negative
+BB18470962-6306115B6C,Connectivity & Compatibility,It's not easily compatible with non apple devices Also sound quality and fit is not as much as it costs,0.94532126,0.01824675,0.03643206,negative
+BB18470962-30EDB7A931,Fit & Comfort,Most comfortable and didnt slip out.,0.0079022115,0.064493254,0.92760456,positive
+BB18470962-30EDB7A931,Fit & Comfort,These ones fit weird and hold better than all other buds ive tried but gen 1 and 2 were better fitting for me.,0.05190324,0.042406674,0.90569,positive
+BB18470962-30EDB7A931,Sound Quality,The sound is great though,0.06738499,0.05306868,0.87954634,positive
+BB18470962-F5B3BA37C6,Sound Quality,"The audio quality is crisp, balanced, and impressively clear, even at lower volumes.",0.004969962,0.010589357,0.9844407,positive
+BB18470962-F5B3BA37C6,Sound Quality,"The improved comfort and fit make them perfect for long listening sessions, and the upgraded features like better noise isolation and enhanced connectivity are noticeable right away.",0.013250439,0.033817276,0.9529323,positive
+BB18470962-F5B3BA37C6,Fit & Comfort,"The improved comfort and fit make them perfect for long listening sessions, and the upgraded features like better noise isolation and enhanced connectivity are noticeable right away.",0.0062575885,0.027197141,0.9665453,positive
+BB18470962-F5B3BA37C6,Connectivity & Compatibility,"The improved comfort and fit make them perfect for long listening sessions, and the upgraded features like better noise isolation and enhanced connectivity are noticeable right away.",0.0073233577,0.03210371,0.96057296,positive
+BB18470962-F5B3BA37C6,Delivery & Pickup,Thank you for the great service and for keeping the newest tech in stock.,0.008121916,0.0040472853,0.9878308,positive
+BB18470962-F5B3BA37C6,Store Service & Staff,Thank you for the great service and for keeping the newest tech in stock.,0.0036898132,0.001466108,0.9948441,positive
+BB18470962-2A24E9898A,Price & Value,I purchased this from bestbuy.ca only to find out that Staples had it for a cheaper price.,0.7379463,0.07624306,0.18581067,negative
+BB18470962-2A24E9898A,Store Service & Staff,I went online and spoke to bestbuy chat support.,0.24647015,0.065860264,0.6876696,positive
+BB18470962-2A24E9898A,Price & Value,"Waited an unusually long time and when the guy came on he looked into it and said that they will not price match as Staples had a ""special"" price on these earbuds.",0.95780724,0.011778684,0.030414075,negative
+BB18470962-2A24E9898A,Returns & Policies,"Waited an unusually long time and when the guy came on he looked into it and said that they will not price match as Staples had a ""special"" price on these earbuds.",0.9864661,0.0027815,0.010752389,negative
+BB18470962-2A24E9898A,Returns & Policies,So I went to staples and purchased them and returned the ones I got from bestbuy.,0.89120066,0.023163928,0.08563538,negative
+BB18470962-864F7EAD7A,Connectivity & Compatibility,I have a Samsung phone and these Apple AirPods work amazing.,0.011749752,0.030600436,0.95764977,positive
+BB18470962-864F7EAD7A,Sound Quality,The sound is phenomenal.,0.0019633737,0.001278184,0.9967584,positive
+BB18470962-864F7EAD7A,Sound Quality,No cracks while you're listening to music.,0.38091722,0.25144324,0.36763957,negative
+BB18470962-864F7EAD7A,Connectivity & Compatibility,"I was worried because I have a Samsung phone that I would miss all the features, but I didn't so I'm very very very pleased with them.",0.012683792,0.028770376,0.9585458,positive
+BB18470962-9EF4CF0CB7,Connectivity & Compatibility,I recently purchased a new pair and find the same issues as past versions.,0.97933817,0.011356216,0.009305633,negative
+BB18470962-9EF4CF0CB7,Sound Quality,The left airpod volume is so low that it cannot possibly be worn on its own.,0.9815984,0.008636113,0.009765525,negative
+BB18470962-9EF4CF0CB7,Sound Quality,Seems like a lot of funds for sounds in just one ear?,0.54019547,0.13502859,0.32477593,negative
+BB18470962-1C73CB1CBA,Price & Value,"the AirPods were cheaper than most stores they sold the same model, the cashier was really nice, always appreciated, and obviously they work!",0.049262773,0.056933276,0.893804,positive
+BB18470962-1C73CB1CBA,Store Service & Staff,"the AirPods were cheaper than most stores they sold the same model, the cashier was really nice, always appreciated, and obviously they work!",0.0183973,0.009773528,0.9718292,positive
+BB18470962-A08AA674BF,Sound Quality,"Great quality, perfect audio, would definitely recommend!",0.00057904504,0.0005761751,0.99884474,positive
+BB18470962-A08AA674BF,Build Quality & Defects,"Great quality, perfect audio, would definitely recommend!",0.04824914,0.09535951,0.8563913,positive
+BB18470962-35FBED05A9,Sound Quality,Voice quality is shattering and also facing the connectivity problems.,0.99600166,0.0007737699,0.0032245396,negative
+BB18470962-35FBED05A9,Connectivity & Compatibility,Voice quality is shattering and also facing the connectivity problems.,0.98896456,0.0027142137,0.008321191,negative
+BB18470962-A28373B6B6,Sound Quality,"Airpods were defective, extremely quiet.",0.9529096,0.016780183,0.030310286,negative
+BB18470962-A28373B6B6,Build Quality & Defects,"Airpods were defective, extremely quiet.",0.9918726,0.0021214692,0.0060058986,negative
+BB18470962-A28373B6B6,Connectivity & Compatibility,Don't work well with other non-apple devices.,0.98989874,0.006071358,0.004029841,negative
+BB18470962-A28373B6B6,Price & Value,For nearly 200$ should function.,0.08039756,0.18111983,0.7384826,positive
+BB18470962-A28373B6B6,Returns & Policies,"BestBuy's open box ""hygiene"" policy for returns is unacceptable on such products, especially when they'll happily re-sell ""open-box"" they take for exchanges.",0.9658807,0.014218521,0.019900735,negative
+BB18470962-2466A83CBA,Sound Quality,"No ANC, no cable, the thinnest sound I've ever heard on a pair of wireless earbuds, for this much $$ ?",0.97166115,0.008853848,0.019484932,negative
+BB18470962-2466A83CBA,Connectivity & Compatibility,"No ANC, no cable, the thinnest sound I've ever heard on a pair of wireless earbuds, for this much $$ ?",0.9364075,0.023449015,0.040143464,negative
+BB18470962-2466A83CBA,Features & Controls,"No ANC, no cable, the thinnest sound I've ever heard on a pair of wireless earbuds, for this much $$ ?",0.94799674,0.014187678,0.037815552,negative
+BB18470962-2466A83CBA,Fit & Comfort,The only positives of these airpods are its fit and quick bluetooth pairing.,0.032200333,0.089098565,0.8787011,positive
+BB18470962-2466A83CBA,Connectivity & Compatibility,The only positives of these airpods are its fit and quick bluetooth pairing.,0.07299697,0.117879614,0.8091234,positive
+BB18470962-2466A83CBA,Sound Quality,"There's also this weird known firmware glitch with these airpods where if you listen with the right ear airpod only first, then decide to take the left one out of the case and put it in your ears to use both, the left one plays audio significantly louder.",0.7471983,0.030273149,0.22252856,negative
+BB18470962-2466A83CBA,Connectivity & Compatibility,"There's also this weird known firmware glitch with these airpods where if you listen with the right ear airpod only first, then decide to take the left one out of the case and put it in your ears to use both, the left one plays audio significantly louder.",0.77382135,0.03721807,0.18896061,negative
+BB18470962-EEF3FA4287,Fit & Comfort,"I bought the new airpods 4 , and the worst thing is that it didn't fit in the ear ..",0.99218154,0.0015736027,0.0062449654,negative
+BB18470962-EEF3FA4287,Fit & Comfort,airpods are soo loose that it get fall after a small bend .,0.94471467,0.013892399,0.041392893,negative
+BB18470962-EEF3FA4287,Fit & Comfort,"The best buy is responsible for this too , they have airpods but in the showcase that nobody can check it as it properly fits or not .",0.6277646,0.09631691,0.27591845,negative
+BB18470962-B3F58AA8E0,Sound Quality,"I got these cause they were less expensive, but just cause it was less expensive which was $179 and they removed noise cancelling, wireless charging and precise find my and speaker on case.",0.69970036,0.07262777,0.22767194,negative
+BB18470962-B3F58AA8E0,Battery & Charging,"I got these cause they were less expensive, but just cause it was less expensive which was $179 and they removed noise cancelling, wireless charging and precise find my and speaker on case.",0.8104569,0.07044849,0.11909466,negative
+BB18470962-B3F58AA8E0,Price & Value,"I got these cause they were less expensive, but just cause it was less expensive which was $179 and they removed noise cancelling, wireless charging and precise find my and speaker on case.",0.622502,0.09881132,0.27868667,negative
+BB18470962-B3F58AA8E0,Features & Controls,"I got these cause they were less expensive, but just cause it was less expensive which was $179 and they removed noise cancelling, wireless charging and precise find my and speaker on case.",0.67101693,0.07861701,0.2503661,negative
+BB18470962-B3F58AA8E0,Price & Value,To get those you have to get AirPods 4 with noise cancellation to get those features for $249!,0.590646,0.069718584,0.33963537,negative
+BB18470962-B3F58AA8E0,Features & Controls,To get those you have to get AirPods 4 with noise cancellation to get those features for $249!,0.5467053,0.06692505,0.38636962,negative
+BB18470962-B3F58AA8E0,Price & Value,Apple just wants money now.,0.8773929,0.038159415,0.08444762,negative
+BB18470962-B3F58AA8E0,Fit & Comfort,"Overall, AirPods 4 without ANC works good, fits perfectly in my ears and not durable case easily get scratches.",0.02914551,0.032713752,0.93814075,positive
+BB18470962-B3F58AA8E0,Features & Controls,"Overall, AirPods 4 without ANC works good, fits perfectly in my ears and not durable case easily get scratches.",0.07217486,0.053125583,0.87469953,positive
+BB18470962-B3F58AA8E0,Build Quality & Defects,"Overall, AirPods 4 without ANC works good, fits perfectly in my ears and not durable case easily get scratches.",0.5054352,0.062019963,0.43254483,negative
+BB18470962-B3F58AA8E0,Sound Quality,Really like head gesture and the Spatial Audio.,0.015064386,0.037955765,0.9469799,positive
+BB18470962-B3F58AA8E0,Features & Controls,Really like head gesture and the Spatial Audio.,0.00794014,0.02037959,0.9716803,positive
+BB18470962-B3F58AA8E0,Features & Controls,Has normal find my to locate AirPods and if in case you can't track or ring.,0.4508545,0.11593635,0.43320912,negative
+BB18470962-B3F58AA8E0,Sound Quality,Sound perfect and the bass is so good.,0.0023573388,0.0060211453,0.9916215,positive
+BB18470962-A5CA52E72A,Connectivity & Compatibility,"Just got a pair of these today, and I'm beyond impressed!",0.004623548,0.019031126,0.97634536,positive
+BB18470962-A5CA52E72A,Sound Quality,"The sound quality is incredible, and the fit is spot-on—they stay securely in place without ever falling out.",0.0026816963,0.005188371,0.99212986,positive
+BB18470962-A5CA52E72A,Fit & Comfort,"The sound quality is incredible, and the fit is spot-on—they stay securely in place without ever falling out.",0.0037198544,0.01503099,0.98124915,positive
+BB18470962-A5CA52E72A,Fit & Comfort,"Plus, they're so comfortable that I can wear them for hours without any ear discomfort, which is a huge win for me.",0.0048064697,0.013171718,0.9820218,positive
+BB18470962-EDE53AC87C,Connectivity & Compatibility,I had the worst luck when it came to buying a pair of AirPods around Christmas.,0.9823171,0.008007493,0.009675378,negative
+BB18470962-EDE53AC87C,Connectivity & Compatibility,I went to another box store and had to return 2 pairs due to issues with shipping etc but once I went to Best Buy I had nothing but great service.,0.09276875,0.06864728,0.838584,positive
+BB18470962-EDE53AC87C,Delivery & Pickup,I went to another box store and had to return 2 pairs due to issues with shipping etc but once I went to Best Buy I had nothing but great service.,0.093079545,0.03773477,0.8691856,positive
+BB18470962-EDE53AC87C,Store Service & Staff,I went to another box store and had to return 2 pairs due to issues with shipping etc but once I went to Best Buy I had nothing but great service.,0.011317505,0.007689809,0.98099273,positive
+BB18470962-EDE53AC87C,Returns & Policies,I went to another box store and had to return 2 pairs due to issues with shipping etc but once I went to Best Buy I had nothing but great service.,0.46230164,0.043287747,0.49441063,positive
+BB18470962-EDE53AC87C,Store Service & Staff,I'm definitely happy with the AirPods 4 and even happier with how the store in East Gwillimbury treats their customers,0.016311234,0.013878808,0.96980995,positive
+BB18470962-35827A91C4,Battery & Charging,Went to use them a week after full charge and they were dead in the case at 0%.,0.9973399,0.0014956588,0.0011643916,negative
+BB18470962-35827A91C4,Battery & Charging,Just fully charged them and one is down to 62% after 10 minutes.,0.96689916,0.0078099393,0.02529102,negative
+BB18470962-AD2FFB345E,Sound Quality,dude i thought these AirPods were going to be normal just like normal AirPods but as soon as i put them in my ear the bass was oh my god insane.,0.9738467,0.0018180892,0.02433521,negative
+BB18470962-AD2FFB345E,Price & Value,"Worth the money for sure , don't need the noise canceling ones.",0.10623192,0.13955712,0.75421095,positive
+BB18470962-AD2FFB345E,Features & Controls,"Worth the money for sure , don't need the noise canceling ones.",0.1248095,0.121173374,0.7540171,positive
+BB18470962-39E2005CCE,Sound Quality,"Not too loud but good fit, don't play max volume unless you want people beside you to hear what you're listening to",0.0638881,0.124736086,0.8113758,positive
+BB18470962-39E2005CCE,Fit & Comfort,"Not too loud but good fit, don't play max volume unless you want people beside you to hear what you're listening to",0.03061104,0.116588704,0.85280025,positive
+BB18470962-F31E849E86,Fit & Comfort,The newly redesigned AirPods which Apple says are designed to fit better into more ears do not fit I cannot have them in for more that 15 seconds without extreme ear pain the original design of there wired AirPods or the AirPod 2 is there best design I wish they didn't change it as the new design is unwearable,0.986087,0.0030388623,0.010874176,negative
+BB18470962-AA6F067D43,Price & Value,Do not bother trying to get another brand's cheaper version of them like I did!!,0.9228123,0.038216088,0.03897167,negative
+BB18470962-AA6F067D43,Sound Quality,"The sound quality on these is *exceptional*, they're easy to set up as Apple products usually are, so comfortable in the ear and they really stay in there.",0.0042587193,0.005854888,0.9898864,positive
+BB18470962-AA6F067D43,Fit & Comfort,"The sound quality on these is *exceptional*, they're easy to set up as Apple products usually are, so comfortable in the ear and they really stay in there.",0.005694706,0.013384864,0.98092043,positive
+BB18470962-AA6F067D43,Features & Controls,"The sound quality on these is *exceptional*, they're easy to set up as Apple products usually are, so comfortable in the ear and they really stay in there.",0.011949258,0.020026878,0.96802384,positive
+BB18470962-AA6F067D43,Sound Quality,"Great bass, amazing at higher and lower volumes alike.",0.002028966,0.0029925327,0.9949785,positive
+BB18470962-9A1637EA3A,Sound Quality,"what a difference, So comfortable and the sound is just great, i mean really good, A great buy for me, really happy with these, Highly Recommend !",0.002157276,0.0010082995,0.99683446,positive
+BB18470962-9A1637EA3A,Fit & Comfort,"what a difference, So comfortable and the sound is just great, i mean really good, A great buy for me, really happy with these, Highly Recommend !",0.0023148311,0.0023834286,0.9953017,positive

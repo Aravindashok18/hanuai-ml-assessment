@@ -1,0 +1,1875 @@
+{
+ "shape": [
+  1000,
+  20
+ ],
+ "text_quality": {
+  "customer text mostly UPPER-CASE (>70% of letters)": 79.8,
+  "narratives containing a stripped number (double space)": 77.0,
+  "narratives with very long glued tokens (>=16 chars, e.g. 'atradiothat')": 21.3,
+  "narratives with split words (e.g. 'RAD IO', 'RE PLACED')": 3.1,
+  "customer text under 5 words": 6.4,
+  "correction text under 5 words": 12.8
+ },
+ "tis": {
+  "median": 227.0,
+  "mean": 241.39653304442038,
+  "n_valid": 923,
+  "le90": 0.2112676056338028,
+  "le180": 0.4268689057421452,
+  "le365": 0.7508125677139762,
+  "negative": 76,
+  "build_to_service_median": 91.0
+ },
+ "date_ranges": {
+  "opened": [
+   "2019-08-27",
+   "2021-06-01"
+  ],
+  "built": [
+   "2019-08-01",
+   "2019-09-07"
+  ]
+ },
+ "monthly": {
+  "2019-08": 3,
+  "2019-09": 12,
+  "2019-10": 22,
+  "2019-11": 31,
+  "2019-12": 27,
+  "2020-01": 67,
+  "2020-02": 69,
+  "2020-03": 68,
+  "2020-04": 50,
+  "2020-05": 64,
+  "2020-06": 65,
+  "2020-07": 54,
+  "2020-08": 60,
+  "2020-09": 45,
+  "2020-10": 63,
+  "2020-11": 56,
+  "2020-12": 37,
+  "2021-01": 39,
+  "2021-02": 42,
+  "2021-03": 51,
+  "2021-04": 47,
+  "2021-05": 27,
+  "2021-06": 1
+ },
+ "association": [
+  {
+   "variable A": "BUILD_PLANT_DESC",
+   "variable B": "COMPLAINT_CD_DESC",
+   "chi2": 50.9,
+   "dof": 56,
+   "p-value": "0.668",
+   "Cramer's V": 0.085
+  },
+  {
+   "variable A": "model_grp",
+   "variable B": "COMPLAINT_CD_DESC",
+   "chi2": 167.9,
+   "dof": 128,
+   "p-value": "0.0103",
+   "Cramer's V": 0.145
+  },
+  {
+   "variable A": "MAKE",
+   "variable B": "COMPLAINT_CD_DESC",
+   "chi2": 48.1,
+   "dof": 24,
+   "p-value": "0.00243",
+   "Cramer's V": 0.127
+  },
+  {
+   "variable A": "BUILD_PLANT_DESC",
+   "variable B": "CAUSAL_CD_DESC",
+   "chi2": 291.8,
+   "dof": 266,
+   "p-value": "0.133",
+   "Cramer's V": 0.204
+  },
+  {
+   "variable A": "COMPLAINT_CD_DESC",
+   "variable B": "CAUSAL_CD_DESC",
+   "chi2": 824.4,
+   "dof": 304,
+   "p-value": "1.32e-49",
+   "Cramer's V": 0.321
+  }
+ ],
+ "coverage": {
+  "Failure component/condition pairs": 0.996,
+  "Trigger (explicit)": 0.221,
+  "Additional context (explicit)": 0.348,
+  "Fix component/condition pairs": 0.979
+ },
+ "languages": {
+  "English": 983,
+  "French": 13,
+  "Spanish": 4
+ },
+ "validation": {
+  "Failure Component": {
+   "precision": 0.9,
+   "recall": 1.0,
+   "F1": 0.947
+  },
+  "Failure Condition": {
+   "precision": 0.556,
+   "recall": 0.556,
+   "F1": 0.556
+  },
+  "Trigger": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "F1": 1.0
+  },
+  "Additional Context": {
+   "precision": 0.6,
+   "recall": 0.6,
+   "F1": 0.6
+  },
+  "Fix Component": {
+   "precision": 0.667,
+   "recall": 0.75,
+   "F1": 0.706
+  },
+  "Fix Condition": {
+   "precision": 0.778,
+   "recall": 0.875,
+   "F1": 0.824
+  }
+ },
+ "complaint_agreement": [
+  {
+   "coded complaint": "Navigation",
+   "claims": 32,
+   "extractor found": "a Navigation component",
+   "agreement": "56%"
+  },
+  {
+   "coded complaint": "Video",
+   "claims": 103,
+   "extractor found": "a Display/Camera component",
+   "agreement": "81%"
+  }
+ ],
+ "radio": {
+  "replaced": 0.883,
+  "programmed": 0.739,
+  "both": 0.665,
+  "programmed_only": 0.074
+ },
+ "issue_counts": {
+  "Radio Replaced - Cause Not Documented": 456,
+  "Radio Hardware Failure": 306,
+  "Software / Programming Issue": 103,
+  "Communication / Network Fault": 83,
+  "Electrical / Wiring / Power Fault": 23,
+  "Other / Unclassified": 15,
+  "Peripheral / Accessory Failure": 14
+ },
+ "shorted": {
+  "n": 237,
+  "Radio Hardware Failure": 0.4219409282700422,
+  "Radio Replaced - Cause Not Documented": 0.4092827004219409,
+  "Communication / Network Fault": 0.0759493670886076,
+  "Software / Programming Issue": 0.046413502109704644,
+  "Electrical / Wiring / Power Fault": 0.029535864978902954,
+  "Peripheral / Accessory Failure": 0.016877637130801686
+ },
+ "pareto": {
+  "Display: Black Screen": 223,
+  "Radio: Inoperative": 131,
+  "Radio: Malfunction": 97,
+  "Display: Inoperative": 80,
+  "Radio: Freezing/Lag": 78,
+  "Radio: Black Screen": 69,
+  "Camera: Inoperative": 58,
+  "Radio: No Sound": 58,
+  "Display: Freezing/Lag": 53,
+  "Satellite Radio: Poor Reception/Signal Loss": 44,
+  "Radio: Audio Cutting Out": 42,
+  "Display: Error Message": 39,
+  "Radio: Poor Reception/Signal Loss": 39,
+  "Radio: Stays On/Battery Drain": 37
+ },
+ "internal_fault_share": 0.334,
+ "control": {
+  "mean2020": 58.166666666666664,
+  "ucl": 81.04678904396177,
+  "lcl": 35.28654428937156,
+  "flagged": {
+   "Sep 2019": 12,
+   "Oct 2019": 22,
+   "Nov 2019": 31,
+   "Dec 2019": 27,
+   "May 2021": 27
+  }
+ },
+ "trend": [
+  {
+   "dimension": "Failure condition",
+   "category": "Stays On/Battery Drain",
+   "claims": 46,
+   "share early": "4.0%",
+   "share mid": "2.2%",
+   "share 2021": "11.1%",
+   "p": "0.000",
+   "p_adj (BH)": "0.000",
+   "significant": "YES"
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Radio (General)",
+   "claims": 334,
+   "share early": "32.1%",
+   "share mid": "30.2%",
+   "share 2021": "43.0%",
+   "p": "0.004",
+   "p_adj (BH)": "0.062",
+   "significant": ""
+  },
+  {
+   "dimension": "Complaint wording",
+   "category": "mentions a software update",
+   "claims": 48,
+   "share early": "5.7%",
+   "share mid": "2.8%",
+   "share 2021": "8.2%",
+   "p": "0.007",
+   "p_adj (BH)": "0.073",
+   "significant": ""
+  },
+  {
+   "dimension": "Issue category",
+   "category": "Radio Replaced - Cause Not Documented",
+   "claims": 456,
+   "share early": "52.5%",
+   "share mid": "43.5%",
+   "share 2021": "40.6%",
+   "p": "0.013",
+   "p_adj (BH)": "0.102",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Poor Reception/Signal Loss",
+   "claims": 83,
+   "share early": "7.4%",
+   "share mid": "10.5%",
+   "share 2021": "4.3%",
+   "p": "0.020",
+   "p_adj (BH)": "0.129",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Black Screen",
+   "claims": 264,
+   "share early": "21.4%",
+   "share mid": "30.0%",
+   "share 2021": "25.1%",
+   "p": "0.027",
+   "p_adj (BH)": "0.143",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Inoperative",
+   "claims": 301,
+   "share early": "33.8%",
+   "share mid": "30.6%",
+   "share 2021": "23.7%",
+   "p": "0.049",
+   "p_adj (BH)": "0.195",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Freezing/Lag",
+   "claims": 129,
+   "share early": "12.7%",
+   "share mid": "10.9%",
+   "share 2021": "17.9%",
+   "p": "0.043",
+   "p_adj (BH)": "0.195",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Update Failure",
+   "claims": 18,
+   "share early": "2.7%",
+   "share mid": "0.8%",
+   "share 2021": "2.9%",
+   "p": "0.066",
+   "p_adj (BH)": "0.233",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Controls Irresponsive",
+   "claims": 27,
+   "share early": "2.7%",
+   "share mid": "1.8%",
+   "share 2021": "4.8%",
+   "p": "0.081",
+   "p_adj (BH)": "0.259",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "OnStar / Telematics",
+   "claims": 23,
+   "share early": "3.7%",
+   "share mid": "2.0%",
+   "share 2021": "1.0%",
+   "p": "0.114",
+   "p_adj (BH)": "0.313",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Satellite Radio / Reception",
+   "claims": 109,
+   "share early": "13.0%",
+   "share mid": "11.1%",
+   "share 2021": "7.2%",
+   "p": "0.117",
+   "p_adj (BH)": "0.313",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Error Message",
+   "claims": 89,
+   "share early": "11.0%",
+   "share mid": "7.1%",
+   "share 2021": "10.1%",
+   "p": "0.130",
+   "p_adj (BH)": "0.319",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Missing/Not Detected",
+   "claims": 19,
+   "share early": "2.0%",
+   "share mid": "1.2%",
+   "share 2021": "3.4%",
+   "p": "0.157",
+   "p_adj (BH)": "0.359",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Rebooting/Resetting",
+   "claims": 43,
+   "share early": "6.0%",
+   "share mid": "3.6%",
+   "share 2021": "3.4%",
+   "p": "0.213",
+   "p_adj (BH)": "0.426",
+   "significant": ""
+  },
+  {
+   "dimension": "Issue category",
+   "category": "Radio Hardware Failure",
+   "claims": 306,
+   "share early": "26.8%",
+   "share mid": "31.8%",
+   "share 2021": "33.3%",
+   "p": "0.209",
+   "p_adj (BH)": "0.426",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Phone / Connectivity",
+   "claims": 74,
+   "share early": "7.4%",
+   "share mid": "8.5%",
+   "share 2021": "4.8%",
+   "p": "0.238",
+   "p_adj (BH)": "0.448",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Malfunction",
+   "claims": 152,
+   "share early": "17.4%",
+   "share mid": "13.4%",
+   "share 2021": "16.4%",
+   "p": "0.266",
+   "p_adj (BH)": "0.472",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Internal Fault",
+   "claims": 334,
+   "share early": "30.4%",
+   "share mid": "33.6%",
+   "share 2021": "37.2%",
+   "p": "0.282",
+   "p_adj (BH)": "0.475",
+   "significant": ""
+  },
+  {
+   "dimension": "Issue category",
+   "category": "Software / Programming Issue",
+   "claims": 103,
+   "share early": "10.0%",
+   "share mid": "9.3%",
+   "share 2021": "13.0%",
+   "p": "0.328",
+   "p_adj (BH)": "0.524",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Audio Cutting Out",
+   "claims": 65,
+   "share early": "6.0%",
+   "share mid": "7.5%",
+   "share 2021": "4.8%",
+   "p": "0.395",
+   "p_adj (BH)": "0.602",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Connection Failure",
+   "claims": 50,
+   "share early": "4.3%",
+   "share mid": "5.9%",
+   "share 2021": "3.9%",
+   "p": "0.445",
+   "p_adj (BH)": "0.630",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Camera / Video",
+   "claims": 113,
+   "share early": "10.4%",
+   "share mid": "12.6%",
+   "share 2021": "9.7%",
+   "p": "0.453",
+   "p_adj (BH)": "0.630",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Incorrect Behaviour",
+   "claims": 57,
+   "share early": "5.0%",
+   "share mid": "5.5%",
+   "share 2021": "7.2%",
+   "p": "0.540",
+   "p_adj (BH)": "0.720",
+   "significant": ""
+  },
+  {
+   "dimension": "Issue category",
+   "category": "Communication / Network Fault",
+   "claims": 83,
+   "share early": "7.7%",
+   "share mid": "9.1%",
+   "share 2021": "7.2%",
+   "p": "0.647",
+   "p_adj (BH)": "0.761",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "Distorted/Glitching",
+   "claims": 39,
+   "share early": "4.3%",
+   "share mid": "4.0%",
+   "share 2021": "2.9%",
+   "p": "0.690",
+   "p_adj (BH)": "0.761",
+   "significant": ""
+  },
+  {
+   "dimension": "Issue category",
+   "category": "Other / Unclassified",
+   "claims": 15,
+   "share early": "1.0%",
+   "share mid": "1.6%",
+   "share 2021": "1.9%",
+   "p": "0.667",
+   "p_adj (BH)": "0.761",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Navigation",
+   "claims": 46,
+   "share early": "3.7%",
+   "share mid": "4.9%",
+   "share 2021": "5.3%",
+   "p": "0.640",
+   "p_adj (BH)": "0.761",
+   "significant": ""
+  },
+  {
+   "dimension": "Issue category",
+   "category": "Electrical / Wiring / Power Fault",
+   "claims": 23,
+   "share early": "1.7%",
+   "share mid": "2.4%",
+   "share 2021": "2.9%",
+   "p": "0.640",
+   "p_adj (BH)": "0.761",
+   "significant": ""
+  },
+  {
+   "dimension": "Failure condition",
+   "category": "No Sound",
+   "claims": 101,
+   "share early": "11.0%",
+   "share mid": "9.7%",
+   "share 2021": "9.7%",
+   "p": "0.814",
+   "p_adj (BH)": "0.868",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Controls / HMI Input",
+   "claims": 18,
+   "share early": "2.0%",
+   "share mid": "1.8%",
+   "share 2021": "1.4%",
+   "p": "0.897",
+   "p_adj (BH)": "0.926",
+   "significant": ""
+  },
+  {
+   "dimension": "Affected function",
+   "category": "Display / Screen",
+   "claims": 275,
+   "share early": "26.8%",
+   "share mid": "27.9%",
+   "share 2021": "27.5%",
+   "p": "0.937",
+   "p_adj (BH)": "0.937",
+   "significant": ""
+  }
+ ],
+ "stays_on": {
+  "claims": 46,
+  "by_quarter": {
+   "2019Q3": {
+    "k": 0,
+    "n": 15,
+    "share": 0.0,
+    "lo": -2.2096511667503485e-17,
+    "hi": 0.20388926630434784
+   },
+   "2019Q4": {
+    "k": 1,
+    "n": 80,
+    "share": 0.0125,
+    "lo": 0.0022099186183062243,
+    "hi": 0.06746432423965451
+   },
+   "2020Q1": {
+    "k": 11,
+    "n": 204,
+    "share": 0.05392156862745098,
+    "lo": 0.030372106395149694,
+    "hi": 0.09396103961604345
+   },
+   "2020Q2": {
+    "k": 3,
+    "n": 179,
+    "share": 0.01675977653631285,
+    "lo": 0.005715827735102382,
+    "hi": 0.0481099974600392
+   },
+   "2020Q3": {
+    "k": 1,
+    "n": 159,
+    "share": 0.006289308176100629,
+    "lo": 0.0011110528093918996,
+    "hi": 0.034761844533793135
+   },
+   "2020Q4": {
+    "k": 7,
+    "n": 156,
+    "share": 0.04487179487179487,
+    "lo": 0.02190305846204288,
+    "hi": 0.08971744583721336
+   },
+   "2021Q1": {
+    "k": 14,
+    "n": 132,
+    "share": 0.10606060606060606,
+    "lo": 0.06423528628432873,
+    "hi": 0.1701671353597037
+   },
+   "2021Q2": {
+    "k": 9,
+    "n": 75,
+    "share": 0.12,
+    "lo": 0.06443298969072164,
+    "hi": 0.2125984251968504
+   }
+  },
+  "radio_replaced": 0.8260869565217391,
+  "radio_replaced_rest": 0.8857442348008385,
+  "prog_only": 0.10869565217391304,
+  "prog_only_rest": 0.07232704402515723,
+  "tac": 0.13043478260869565,
+  "tac_rest": 0.34276729559748426,
+  "median_tis": 309.0,
+  "median_tis_rest": 226.0,
+  "after_ignition_off": 0.5652173913043478
+ },
+ "update": {
+  "claims": 48,
+  "share": 0.048,
+  "p_chi": 0.0068500790280352,
+  "p_fisher": 0.016202261375705462,
+  "by_period": {
+   "Aug-19 to Mar-20": {
+    "claims": 17,
+    "share": 0.056856187290969896
+   },
+   "Apr-20 to Dec-20": {
+    "claims": 14,
+    "share": 0.02834008097165992
+   },
+   "2021": {
+    "claims": 17,
+    "share": 0.0821256038647343
+   }
+  }
+ },
+ "kruskal": {
+  "Issue Category": {
+   "H": 8.664122069763923,
+   "p": 0.12323477970730712
+  },
+  "Affected Function": {
+   "H": 7.250897615093184,
+   "p": 0.40323244321541585
+  }
+ },
+ "concentration": {
+  "BUILD_PLANT_DESC x Affected Function": {
+   "p": 0.5720173356040633,
+   "V": 0.09283750424986334,
+   "z_bonf": 3.4205267011318305,
+   "cells": []
+  },
+  "BUILD_PLANT_DESC x Issue Category": {
+   "p": 0.6664287267919667,
+   "V": 0.07911207636855562,
+   "z_bonf": 3.3222779195435663,
+   "cells": [
+    {
+     "BUILD_PLANT_DESC": "Spring Hill - Truck",
+     "Issue Category": "Software / Programming Issue",
+     "claims": 29,
+     "expected": 17.4,
+     "z": 3.2,
+     "survives Bonferroni": "no"
+    }
+   ]
+  },
+  "model_grp x Affected Function": {
+   "p": 1.2298975110192588e-05,
+   "V": 0.15883282215341135,
+   "z_bonf": 3.6204266300008046,
+   "cells": [
+    {
+     "model_grp": "FusionNova",
+     "Affected Function": "Camera / Video",
+     "claims": 18,
+     "expected": 6.7,
+     "z": 4.8,
+     "survives Bonferroni": "YES"
+    },
+    {
+     "model_grp": "HyperFury X",
+     "Affected Function": "Camera / Video",
+     "claims": 30,
+     "expected": 16.7,
+     "z": 3.7,
+     "survives Bonferroni": "YES"
+    },
+    {
+     "model_grp": "ShadowPulse",
+     "Affected Function": "Satellite Radio / Reception",
+     "claims": 14,
+     "expected": 6.6,
+     "z": 3.1,
+     "survives Bonferroni": "no"
+    },
+    {
+     "model_grp": "StellarGlide",
+     "Affected Function": "Camera / Video",
+     "claims": 16,
+     "expected": 7.0,
+     "z": 3.7,
+     "survives Bonferroni": "YES"
+    }
+   ]
+  },
+  "model_grp x Issue Category": {
+   "p": 0.3247211017675581,
+   "V": 0.13022114662242376,
+   "z_bonf": 3.527081085001026,
+   "cells": []
+  },
+  "MAKE x Affected Function": {
+   "p": 0.04013788155220007,
+   "V": 0.11707020015648846,
+   "z_bonf": 3.2272184259631627,
+   "cells": [
+    {
+     "MAKE": "NebulaCruiser",
+     "Affected Function": "Camera / Video",
+     "claims": 26,
+     "expected": 14.1,
+     "z": 3.6,
+     "survives Bonferroni": "YES"
+    }
+   ]
+  },
+  "MAKE x Issue Category": {
+   "p": 0.2590937594819152,
+   "V": 0.08448459390731063,
+   "z_bonf": 3.1237346303238454,
+   "cells": []
+  }
+ },
+ "radio_by_plant_p": 0.06565521561997284,
+ "radio_by_plant": {
+  "Flint": 0.88,
+  "Fort Wayne": 0.834,
+  "Lansing Delta": 0.937,
+  "Ramos Arizpe": 0.897,
+  "Silao": 0.905,
+  "Spring Hill - Truck": 0.864
+ },
+ "repair_path": {
+  "Radio replaced": "88.3%",
+  "Radio replaced AND reprogrammed": "66.5%",
+  "Escalated to technical assistance (TAC / Techline / engineering)": "33.3%",
+  "  ...of which ended in radio replacement": "91.9%",
+  "Radio reprogrammed WITHOUT being replaced": "7.4%",
+  "Software fix tried and reported as not working": "2.8%",
+  "Radio replaced with 'no DTC / no codes' recorded": "15.8%",
+  "Parts on order / waiting for parts": "7.6%",
+  "Loaner / rental / shuttle mentioned": "1.2%",
+  "Customer says it is a repeat visit": "9.2%",
+  "Could-not-duplicate / no fault found": "3.0%"
+ },
+ "kmeans": {
+  "K": 10,
+  "silhouette": 0.09675531869426404,
+  "selection": {
+   "3": {
+    "silhouette": 0.046,
+    "inertia": 854.034
+   },
+   "4": {
+    "silhouette": 0.058,
+    "inertia": 825.432
+   },
+   "5": {
+    "silhouette": 0.061,
+    "inertia": 807.121
+   },
+   "6": {
+    "silhouette": 0.072,
+    "inertia": 779.267
+   },
+   "7": {
+    "silhouette": 0.08,
+    "inertia": 758.223
+   },
+   "8": {
+    "silhouette": 0.086,
+    "inertia": 744.718
+   },
+   "9": {
+    "silhouette": 0.093,
+    "inertia": 727.848
+   },
+   "10": {
+    "silhouette": 0.097,
+    "inertia": 711.643
+   },
+   "11": {
+    "silhouette": 0.102,
+    "inertia": 698.405
+   },
+   "12": {
+    "silhouette": 0.108,
+    "inertia": 679.206
+   }
+  }
+ },
+ "kmeans_stability": {
+  "mean_ari": 0.4928035973970954,
+  "min_ari": 0.35423249587298067
+ },
+ "clusters": [
+  {
+   "cluster": 1,
+   "claims": 366,
+   "share": "37%",
+   "distinctive terms": "shut, stays, update, turning, message, failed, ordered, door",
+   "main function": "Radio (General)",
+   "function share": "50%",
+   "radio replaced": "87%",
+   "median TIS (d)": 220,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 4,
+   "claims": 89,
+   "share": "9%",
+   "distinctive terms": "blank, screen, goes blank, screen blank, goes, screen goes, blank screen, cue screen",
+   "main function": "Display / Screen",
+   "function share": "73%",
+   "radio replaced": "91%",
+   "median TIS (d)": 250,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 9,
+   "claims": 86,
+   "share": "9%",
+   "distinctive terms": "no, sound, no sound, no volume, display, coming, no audio, volume",
+   "main function": "Radio (General)",
+   "function share": "48%",
+   "radio replaced": "88%",
+   "median TIS (d)": 228,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 0,
+   "claims": 83,
+   "share": "8%",
+   "distinctive terms": "black, screen black, screen, goes black, goes, screen goes, black screen, display",
+   "main function": "Display / Screen",
+   "function share": "64%",
+   "radio replaced": "89%",
+   "median TIS (d)": 240,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 8,
+   "claims": 80,
+   "share": "8%",
+   "distinctive terms": "xm, signal, stations, play, change, xm not, loading, sirius",
+   "main function": "Satellite Radio / Reception",
+   "function share": "79%",
+   "radio replaced": "91%",
+   "median TIS (d)": 180,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 7,
+   "claims": 76,
+   "share": "8%",
+   "distinctive terms": "does, does not, work, not work, not, turn, not turn, camera does",
+   "main function": "Radio (General)",
+   "function share": "30%",
+   "radio replaced": "89%",
+   "median TIS (d)": 262,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 3,
+   "claims": 74,
+   "share": "7%",
+   "distinctive terms": "inop, camera inop, screen inop, camera, xm inop, display inop, vehicles, electrical",
+   "main function": "Camera / Video",
+   "function share": "30%",
+   "radio replaced": "93%",
+   "median TIS (d)": 230,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 5,
+   "claims": 62,
+   "share": "6%",
+   "distinctive terms": "working, not working, not, camera not, cameras, camera, navigation, working properly",
+   "main function": "Camera / Video",
+   "function share": "32%",
+   "radio replaced": "84%",
+   "median TIS (d)": 229,
+   "top issue category": "Radio Hardware Failure"
+  },
+  {
+   "cluster": 2,
+   "claims": 37,
+   "share": "4%",
+   "distinctive terms": "phone, bluetooth, pair, connect, contacts, not connect, phone not, calls",
+   "main function": "Phone / Connectivity",
+   "function share": "84%",
+   "radio replaced": "92%",
+   "median TIS (d)": 206,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  },
+  {
+   "cluster": 6,
+   "claims": 30,
+   "share": "3%",
+   "distinctive terms": "card, sd, sd card, removed, card removed, message, card error, error",
+   "main function": "Radio (General)",
+   "function share": "43%",
+   "radio replaced": "87%",
+   "median TIS (d)": 190,
+   "top issue category": "Radio Replaced - Cause Not Documented"
+  }
+ ],
+ "hub_tfidf": {
+  "min": 0.8387096774193549,
+  "max": 0.9324324324324325
+ },
+ "topics": [
+  {
+   "topic": 0,
+   "claims": 150,
+   "share": "15%",
+   "top terms": "usb, update, transfer, sps, file, usb file, file transfer, programming, software, reset",
+   "radio replaced": "75%",
+   "TAC escalated": "39%",
+   "top issue category": "Radio Replaced - Cause Not Documented",
+   "name": "Programming path (USB file transfer / SPS)"
+  },
+  {
+   "topic": 1,
+   "claims": 82,
+   "share": "8%",
+   "top terms": "failure, internal failure, internal, failure replaced, failure replace, replaced reprogrammed, reprogrammed, operating, communication, programming",
+   "radio replaced": "93%",
+   "TAC escalated": "22%",
+   "top issue category": "Radio Hardware Failure",
+   "name": "Documented internal failure -> replaced"
+  },
+  {
+   "topic": 2,
+   "claims": 81,
+   "share": "8%",
+   "top terms": "fault, internal fault, internal, fault replaced, scan, fault replace, update, connections, dtc, diagnosed",
+   "radio replaced": "93%",
+   "TAC escalated": "22%",
+   "top issue category": "Radio Hardware Failure",
+   "name": "Internal fault found by scan -> replaced"
+  },
+  {
+   "topic": 3,
+   "claims": 145,
+   "share": "14%",
+   "top terms": "replace, program, replace program, scan, replace replaced, communication, test, shorted, replace replace, issue",
+   "radio replaced": "96%",
+   "TAC escalated": "46%",
+   "top issue category": "Radio Replaced - Cause Not Documented",
+   "name": "TAC-directed replacement (communication / short)"
+  },
+  {
+   "topic": 4,
+   "claims": 177,
+   "share": "18%",
+   "top terms": "ground, power, power ground, communication, circuits, checked, data, circuit, good, ethernet",
+   "radio replaced": "90%",
+   "TAC escalated": "23%",
+   "top issue category": "Radio Replaced - Cause Not Documented",
+   "name": "Power / ground / data circuits tested OK -> replaced"
+  },
+  {
+   "topic": 5,
+   "claims": 131,
+   "share": "13%",
+   "top terms": "programmed, replaced programmed, replace replaced, programmed usb, programmed sps, claim, checked, failed, circuit, setup",
+   "radio replaced": "96%",
+   "TAC escalated": "37%",
+   "top issue category": "Radio Replaced - Cause Not Documented",
+   "name": "Replace + program (claim documentation)"
+  },
+  {
+   "topic": 6,
+   "claims": 234,
+   "share": "23%",
+   "top terms": "screen, camera, display, removed, cable, not, coax, inop, rear, test",
+   "radio replaced": "84%",
+   "TAC escalated": "35%",
+   "top issue category": "Radio Replaced - Cause Not Documented",
+   "name": "Display / camera / coax diagnostics"
+  }
+ ],
+ "embedding": {
+  "K": 10,
+  "selection": {
+   "5": {
+    "silhouette": 0.049,
+    "stability (mean ARI across seeds)": 0.817,
+    "NMI vs rule-based function": 0.376
+   },
+   "6": {
+    "silhouette": 0.052,
+    "stability (mean ARI across seeds)": 0.71,
+    "NMI vs rule-based function": 0.316
+   },
+   "7": {
+    "silhouette": 0.06,
+    "stability (mean ARI across seeds)": 0.738,
+    "NMI vs rule-based function": 0.337
+   },
+   "8": {
+    "silhouette": 0.061,
+    "stability (mean ARI across seeds)": 0.811,
+    "NMI vs rule-based function": 0.338
+   },
+   "9": {
+    "silhouette": 0.058,
+    "stability (mean ARI across seeds)": 0.66,
+    "NMI vs rule-based function": 0.335
+   },
+   "10": {
+    "silhouette": 0.065,
+    "stability (mean ARI across seeds)": 0.698,
+    "NMI vs rule-based function": 0.33
+   }
+  },
+  "ari_vs_tfidf": 0.17521605682326286,
+  "nmi_vs_tfidf": 0.31658983145535047,
+  "nmi_function_tfidf": 0.19391189431776987,
+  "nmi_function_emb": 0.3505001811684914,
+  "hub_min": 0.8021978021978022,
+  "hub_max": 0.94,
+  "profile": [
+   {
+    "embedding cluster": "E0: Display / Screen",
+    "claims": 91,
+    "function share": "60%",
+    "radio replaced": "80%",
+    "TAC escalated": "35%",
+    "example": "C/S: CUSTOMER STATED STEREO SCREEN WENT BACK, NO AUDIO, STEERING WHEEL"
+   },
+   {
+    "embedding cluster": "E1: Radio (General)",
+    "claims": 50,
+    "function share": "44%",
+    "radio replaced": "94%",
+    "TAC escalated": "44%",
+    "example": "Customer reports that radio and screen is intermittantly inop Inspect "
+   },
+   {
+    "embedding cluster": "E2: Display / Screen",
+    "claims": 136,
+    "function share": "74%",
+    "radio replaced": "90%",
+    "TAC escalated": "30%",
+    "example": "C S RADIO WILL NOT COME ON SCREEN IS JUST DARK"
+   },
+   {
+    "embedding cluster": "E3: Radio (General)",
+    "claims": 95,
+    "function share": "73%",
+    "radio replaced": "89%",
+    "TAC escalated": "25%",
+    "example": "CUSTOMER STATES THAT RADIO POWER WILL BE ON AND THERE WILL NO SOUND. P"
+   },
+   {
+    "embedding cluster": "E4: Radio (General)",
+    "claims": 185,
+    "function share": "53%",
+    "radio replaced": "90%",
+    "TAC escalated": "37%",
+    "example": "RADIO IS INOPERABLE CHECK AND ADVISE"
+   },
+   {
+    "embedding cluster": "E5: Satellite Radio / Reception",
+    "claims": 90,
+    "function share": "84%",
+    "radio replaced": "91%",
+    "TAC escalated": "38%",
+    "example": "ELECTRICAL REPAIRS, C/S that his XM radio is inop until he chances the"
+   },
+   {
+    "embedding cluster": "E6: Radio (General)",
+    "claims": 91,
+    "function share": "53%",
+    "radio replaced": "85%",
+    "TAC escalated": "24%",
+    "example": "CUSTOMER STATES AFTER SHUT VEH DOWN, RADIO AND CUE SCREEN STAYS ON"
+   },
+   {
+    "embedding cluster": "E7: Phone / Connectivity",
+    "claims": 46,
+    "function share": "91%",
+    "radio replaced": "89%",
+    "TAC escalated": "30%",
+    "example": "ATTN SFM -   - REPAIR FOR ANDROID AUTO WILL NOT CONNECT - VERIFIED BY "
+   },
+   {
+    "embedding cluster": "E8: Camera / Video",
+    "claims": 103,
+    "function share": "92%",
+    "radio replaced": "89%",
+    "TAC escalated": "24%",
+    "example": "  MINOR ELECTRICAL CUST STATES BACK UP CAMERA INOP INTERMITTENTLY AGAI"
+   },
+   {
+    "embedding cluster": "E9: Radio (General)",
+    "claims": 96,
+    "function share": "43%",
+    "radio replaced": "88%",
+    "TAC escalated": "51%",
+    "example": "CUSTOMER STATES A MESSAGE OF LOST SATELITE SIGNAL TRYING TO RECONNECT "
+   }
+  ]
+ },
+ "root_cause_cells": [
+  {
+   "dimension": "model_grp",
+   "lens": "Embedding Cluster",
+   "dimension value": "FusionNova",
+   "cluster/topic": "E8: Camera / Video",
+   "claims": 19,
+   "expected": 6.1,
+   "z": 5.7,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "model_grp",
+   "lens": "Embedding Cluster",
+   "dimension value": "StellarGlide",
+   "cluster/topic": "E8: Camera / Video",
+   "claims": 18,
+   "expected": 6.4,
+   "z": 5.0,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "MAKE",
+   "lens": "Embedding Cluster",
+   "dimension value": "NebulaCruiser",
+   "cluster/topic": "E8: Camera / Video",
+   "claims": 28,
+   "expected": 12.9,
+   "z": 4.8,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "model_grp",
+   "lens": "repair_topic",
+   "dimension value": "FusionNova",
+   "cluster/topic": 6,
+   "claims": 28,
+   "expected": 13.8,
+   "z": 4.5,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "period",
+   "lens": "Embedding Cluster",
+   "dimension value": "2021",
+   "cluster/topic": "E6: Radio (General)",
+   "claims": 34,
+   "expected": 18.8,
+   "z": 4.1,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "model_grp",
+   "lens": "Embedding Cluster",
+   "dimension value": "HyperFury X",
+   "cluster/topic": "E8: Camera / Video",
+   "claims": 29,
+   "expected": 15.2,
+   "z": 4.0,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "model_grp",
+   "lens": "symptom_cluster_label",
+   "dimension value": "FusionNova",
+   "cluster/topic": "C5: working / not working / not",
+   "claims": 10,
+   "expected": 3.7,
+   "z": 3.5,
+   "survives Bonferroni": "no"
+  },
+  {
+   "dimension": "MAKE",
+   "lens": "Embedding Cluster",
+   "dimension value": "ThunderVolt",
+   "cluster/topic": "E4: Radio (General)",
+   "claims": 112,
+   "expected": 90.3,
+   "z": 3.5,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "tis_band",
+   "lens": "Embedding Cluster",
+   "dimension value": "181-365 d",
+   "cluster/topic": "E8: Camera / Video",
+   "claims": 47,
+   "expected": 31.7,
+   "z": 3.5,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "period",
+   "lens": "symptom_cluster_label",
+   "dimension value": "2021",
+   "cluster/topic": "C1: shut / stays / update",
+   "claims": 96,
+   "expected": 75.8,
+   "z": 3.3,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "dimension": "tis_band",
+   "lens": "repair_topic",
+   "dimension value": "181-365 d",
+   "cluster/topic": 3,
+   "claims": 29,
+   "expected": 44.7,
+   "z": -3.1,
+   "survives Bonferroni": "no"
+  },
+  {
+   "dimension": "period",
+   "lens": "Embedding Cluster",
+   "dimension value": "Apr-20 to Dec-20",
+   "cluster/topic": "E6: Radio (General)",
+   "claims": 29,
+   "expected": 45.0,
+   "z": -3.5,
+   "survives Bonferroni": "YES"
+  }
+ ],
+ "hypotheses": [
+  {
+   "#": "H1",
+   "Root-cause hypothesis": "The radio / head-unit is the common failure point (a hub), not the individual symptoms",
+   "Evidence from the data": "88% of claims end with the radio replaced - 80-94% in every symptom cluster (TF-IDF and embedding views), incl. camera, phone, satellite and display complaints; 31% of claims explicitly document an internal radio fault; only 2% show an external wiring/electrical cause",
+   "Confidence": "High that the radio is the remedy; medium on the failure mechanism (narratives rarely state it)"
+  },
+  {
+   "#": "H2",
+   "Root-cause hypothesis": "Software / firmware robustness (programming and update) contributes materially",
+   "Evidence from the data": "10% are classed software/programming; 7% were resolved by reprogramming WITHOUT replacing the radio; a USB/SPS programming topic covers 15% of narratives; complaints that mention a software update are 3% of claims in Apr-Dec 2020 and 8% in 2021 (exploratory: p=0.007 unadjusted, 0.073 after correction - not significant)",
+   "Confidence": "Medium for a software contribution; the 2021 update-wording rise does not survive correction"
+  },
+  {
+   "#": "H3",
+   "Root-cause hypothesis": "The video / rear-camera signal path on specific model lines is weaker than on others",
+   "Evidence from the data": "Camera/video complaints are over-represented in: FusionNova (18 claims vs 7 expected), HyperFury X (30 claims vs 17 expected), StellarGlide (16 claims vs 7 expected). In the independent repair text, FusionNova is over-represented in the repair topic 'Display / camera / coax diagnostics' (28 vs 14 expected). Yet 93% of camera claims are still fixed by replacing the radio",
+   "Confidence": "Medium - convergent (symptom + repair text), but counts not rates"
+  },
+  {
+   "#": "H4",
+   "Root-cause hypothesis": "Diagnosis is not converging: radios are replaced on TAC advice without a documented cause",
+   "Evidence from the data": "46% of claims replace the radio with no documented physical cause; 33% escalate to TAC/Techline and 92% of those end in replacement; 16% replace the radio while recording no fault codes",
+   "Confidence": "High that documentation is thin; unknown how many replaced radios were truly faulty"
+  },
+  {
+   "#": "H5",
+   "Root-cause hypothesis": "Early-life (infant-mortality) failures escape end-of-line / dealer PDI testing",
+   "Evidence from the data": "21% of claims occur within 90 days of the vehicle entering service; 76 claims are even dated BEFORE the in-service date (pre-delivery repairs?)",
+   "Confidence": "Medium"
+  },
+  {
+   "#": "H7",
+   "Root-cause hypothesis": "An emerging power-management / sleep-mode problem: the radio fails to shut down after ignition-off and drains the battery",
+   "Evidence from the data": "The ONLY change in event frequency that survives multiple-testing correction: 'stays on / battery drain' claims rise from 1% (2020Q3) to 11-12% (2021). They are 57% 'after ignition off', arrive later in life (median 309 vs 226 days), are fixed by reprogramming alone more often (11% vs 7%) and are escalated less (13% vs 34%)",
+   "Confidence": "Medium-high that the increase is real; the mechanism (software sleep-mode vs hardware) is a hypothesis to test"
+  },
+  {
+   "#": "H6",
+   "Root-cause hypothesis": "Structured claim coding hides the real failure picture",
+   "Evidence from the data": "The coded cause barely changes the repair or the evidence found (fig 5); coded complaint 'Communication' is mostly audio drop-outs and screen blanking, not connectivity; a hidden non-breaking-space defect split one complaint label in two",
+   "Confidence": "High"
+  }
+ ],
+ "kpi": {
+  "radio_replaced": 0.883,
+  "both": 0.665,
+  "prog_only": 0.074,
+  "undocumented": 0.456,
+  "hardware": 0.306,
+  "software": 0.103,
+  "comm": 0.083,
+  "elec": 0.023,
+  "tac": 0.333,
+  "tac_replaced": 0.918918918918919,
+  "no_dtc_replaced": 0.158,
+  "repeat": 0.092,
+  "parts_wait": 0.076,
+  "early90": 0.2112676056338028,
+  "hub_min": 0.8021978021978022,
+  "hub_max": 0.94
+ },
+ "camera_models": [
+  {
+   "model_grp": "FusionNova",
+   "Affected Function": "Camera / Video",
+   "claims": 18,
+   "expected": 6.7,
+   "z": 4.8,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "model_grp": "HyperFury X",
+   "Affected Function": "Camera / Video",
+   "claims": 30,
+   "expected": 16.7,
+   "z": 3.7,
+   "survives Bonferroni": "YES"
+  },
+  {
+   "model_grp": "StellarGlide",
+   "Affected Function": "Camera / Video",
+   "claims": 16,
+   "expected": 7.0,
+   "z": 3.7,
+   "survives Bonferroni": "YES"
+  }
+ ],
+ "repair_topic_concentration": "FusionNova is over-represented in the repair topic 'Display / camera / coax diagnostics' (28 vs 14 expected)",
+ "whatif": [
+  {
+   "reduction in radio replacements": "5%",
+   "replacements avoided / 1,000 claims": 44,
+   "saving @ $500 each": "$22,075",
+   "saving @ $800 each": "$35,320",
+   "saving @ $1,200 each": "$52,980"
+  },
+  {
+   "reduction in radio replacements": "10%",
+   "replacements avoided / 1,000 claims": 88,
+   "saving @ $500 each": "$44,150",
+   "saving @ $800 each": "$70,640",
+   "saving @ $1,200 each": "$105,960"
+  },
+  {
+   "reduction in radio replacements": "20%",
+   "replacements avoided / 1,000 claims": 177,
+   "saving @ $500 each": "$88,300",
+   "saving @ $800 each": "$141,280",
+   "saving @ $1,200 each": "$211,920"
+  }
+ ],
+ "baseline_replacements_per_1000": 883.0,
+ "qa_log": [
+  {
+   "Issue": "Missing coded cause",
+   "Column(s)": "CAUSAL_CD_DESC",
+   "Rows affected": 3,
+   "Action taken": "Kept as its own category 'Not Coded' (mode-imputing would invent a cause)"
+  },
+  {
+   "Issue": "Missing diagnosis narrative",
+   "Column(s)": "CAUSAL_VERBATIM",
+   "Rows affected": 1,
+   "Action taken": "Set to empty text and flagged (`causal_missing`); mining falls back to the other narratives"
+  },
+  {
+   "Issue": "Missing in-service date",
+   "Column(s)": "IN_USE_DATE",
+   "Rows affected": 1,
+   "Action taken": "Imputed as BUILD_DATE + median build->service lag; flagged (`in_use_imputed`) and excluded from time-in-service statistics"
+  },
+  {
+   "Issue": "Entity-tag columns ~99.5% empty",
+   "Column(s)": "Trigger ... Fix Condition",
+   "Rows affected": 995,
+   "Action taken": "Not missing data: only 5 worked examples were supplied. Populated for all rows by text mining (section 4)"
+  },
+  {
+   "Issue": "Placeholder instead of a complaint",
+   "Column(s)": "CUSTOMER_VERBATIM",
+   "Rows affected": 8,
+   "Action taken": "Text is just the coded category ('Audio Entertainment Navigation Other issues'). Flagged `customer_placeholder`; symptom mining falls back to the diagnosis text"
+  },
+  {
+   "Issue": "Repeated customer concern text",
+   "Column(s)": "CUSTOMER_VERBATIM",
+   "Rows affected": 10,
+   "Action taken": "Kept - same short phrase on different vehicles/dates/plants, with different diagnoses. No true duplicate records exist"
+  },
+  {
+   "Issue": "Hidden whitespace (non-breaking spaces) in labels",
+   "Column(s)": "COMPLAINT_CD_DESC",
+   "Rows affected": 11,
+   "Action taken": "Normalised. The 'Abnormal Noise' complaint label used non-breaking spaces, so it had been silently counted as a different category from its normal spelling"
+  },
+  {
+   "Issue": "Mixed date formats",
+   "Column(s)": "Opened date vs BUILD_DATE / IN_USE_DATE",
+   "Rows affected": 1000,
+   "Action taken": "Opened date is M/D/YYYY text; build/in-use are ISO timestamps. All parsed to a single datetime type"
+  },
+  {
+   "Issue": "Claim opened before in-service date",
+   "Column(s)": "Opened date / IN_USE_DATE",
+   "Rows affected": 76,
+   "Action taken": "Kept (possible pre-delivery repair or date-entry error) but flagged `tis_negative` and excluded from time-in-service statistics"
+  },
+  {
+   "Issue": "Constant column",
+   "Column(s)": "MODLYR",
+   "Rows affected": 1000,
+   "Action taken": "Excluded from analysis (all 2020)"
+  },
+  {
+   "Issue": "Redundant column",
+   "Column(s)": "PLANT",
+   "Rows affected": 1000,
+   "Action taken": "Excluded; BUILD_PLANT_DESC used (1-to-1 with the code)"
+  },
+  {
+   "Issue": "Very rare models",
+   "Column(s)": "MODEL",
+   "Rows affected": 26,
+   "Action taken": "7 models with <10 claims grouped as 'Other (<10 claims)' for charts/tests"
+  },
+  {
+   "Issue": "Noisy free text",
+   "Column(s)": "CUSTOMER/CAUSAL/CORRECTION_VERBATIM",
+   "Rows affected": 1000,
+   "Action taken": "Export removed line-breaks and numbers: glued and split words, mixed case, boiler-plate. Handled by normalisation + corpus-driven fragment repair + substring-tolerant matching (section 4)"
+  },
+  {
+   "Issue": "Non-English narratives (Spanish / French)",
+   "Column(s)": "free text",
+   "Rows affected": 17,
+   "Action taken": "Kept; Spanish/French cues are included in the lexicons (e.g. 'pantalla negra', 'ecran noir')"
+  }
+ ],
+ "tag_vocabulary": [
+  {
+   "tag type": "Failure Component",
+   "label": "Radio",
+   "claims": 654,
+   "% of claims": 65.4
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Display",
+   "claims": 375,
+   "% of claims": 37.5
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Satellite Radio",
+   "claims": 116,
+   "% of claims": 11.6
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Camera",
+   "claims": 113,
+   "% of claims": 11.3
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Bluetooth/Phone",
+   "claims": 65,
+   "% of claims": 6.5
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Navigation",
+   "claims": 47,
+   "% of claims": 4.7
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "USB/AUX/SD Port",
+   "claims": 35,
+   "% of claims": 3.5
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "OnStar/Telematics",
+   "claims": 25,
+   "% of claims": 2.5
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Controls/Buttons",
+   "claims": 23,
+   "% of claims": 2.3
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "WiFi/Hotspot",
+   "claims": 14,
+   "% of claims": 1.4
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Wiring/Connector",
+   "claims": 11,
+   "% of claims": 1.1
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Speaker/Amplifier",
+   "claims": 9,
+   "% of claims": 0.9
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Antenna/Coax",
+   "claims": 7,
+   "% of claims": 0.7
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Instrument Cluster",
+   "claims": 7,
+   "% of claims": 0.7
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "CarPlay/AndroidAuto",
+   "claims": 6,
+   "% of claims": 0.6
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Control Module",
+   "claims": 5,
+   "% of claims": 0.5
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Head-Up Display",
+   "claims": 1,
+   "% of claims": 0.1
+  },
+  {
+   "tag type": "Failure Component",
+   "label": "Clock",
+   "claims": 1,
+   "% of claims": 0.1
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Internal Fault",
+   "claims": 334,
+   "% of claims": 33.4
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Inoperative",
+   "claims": 301,
+   "% of claims": 30.1
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Black Screen",
+   "claims": 264,
+   "% of claims": 26.4
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Malfunction",
+   "claims": 152,
+   "% of claims": 15.2
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Freezing/Lag",
+   "claims": 129,
+   "% of claims": 12.9
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "No Sound",
+   "claims": 101,
+   "% of claims": 10.1
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Error Message",
+   "claims": 89,
+   "% of claims": 8.9
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Poor Reception/Signal Loss",
+   "claims": 83,
+   "% of claims": 8.3
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Audio Cutting Out",
+   "claims": 65,
+   "% of claims": 6.5
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Incorrect Behaviour",
+   "claims": 57,
+   "% of claims": 5.7
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Connection Failure",
+   "claims": 50,
+   "% of claims": 5.0
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Stays On/Battery Drain",
+   "claims": 46,
+   "% of claims": 4.6
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Rebooting/Resetting",
+   "claims": 43,
+   "% of claims": 4.3
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Distorted/Glitching",
+   "claims": 39,
+   "% of claims": 3.9
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Controls Irresponsive",
+   "claims": 27,
+   "% of claims": 2.7
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Missing/Not Detected",
+   "claims": 19,
+   "% of claims": 1.9
+  },
+  {
+   "tag type": "Failure Condition",
+   "label": "Update Failure",
+   "claims": 18,
+   "% of claims": 1.8
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Radio",
+   "claims": 942,
+   "% of claims": 94.2
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "SPS",
+   "claims": 171,
+   "% of claims": 17.1
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "USB",
+   "claims": 155,
+   "% of claims": 15.5
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "USB/AUX/SD Port",
+   "claims": 27,
+   "% of claims": 2.7
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Control Module",
+   "claims": 22,
+   "% of claims": 2.2
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Display",
+   "claims": 21,
+   "% of claims": 2.1
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "N/A",
+   "claims": 15,
+   "% of claims": 1.5
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Camera",
+   "claims": 11,
+   "% of claims": 1.1
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "OnStar/Telematics",
+   "claims": 9,
+   "% of claims": 0.9
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Wiring/Connector",
+   "claims": 8,
+   "% of claims": 0.8
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Antenna/Coax",
+   "claims": 7,
+   "% of claims": 0.7
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Instrument Cluster",
+   "claims": 2,
+   "% of claims": 0.2
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Software",
+   "claims": 1,
+   "% of claims": 0.1
+  },
+  {
+   "tag type": "Fix Component",
+   "label": "Speaker/Amplifier",
+   "claims": 1,
+   "% of claims": 0.1
+  },
+  {
+   "tag type": "Fix Condition",
+   "label": "Replaced",
+   "claims": 896,
+   "% of claims": 89.6
+  },
+  {
+   "tag type": "Fix Condition",
+   "label": "Programmed",
+   "claims": 762,
+   "% of claims": 76.2
+  },
+  {
+   "tag type": "Fix Condition",
+   "label": "Repaired",
+   "claims": 39,
+   "% of claims": 3.9
+  },
+  {
+   "tag type": "Fix Condition",
+   "label": "Tested OK/No Fault",
+   "claims": 15,
+   "% of claims": 1.5
+  },
+  {
+   "tag type": "Fix Condition",
+   "label": "Reset",
+   "claims": 14,
+   "% of claims": 1.4
+  },
+  {
+   "tag type": "Trigger",
+   "label": "At Startup",
+   "claims": 101,
+   "% of claims": 10.1
+  },
+  {
+   "tag type": "Trigger",
+   "label": "After Ignition Off",
+   "claims": 49,
+   "% of claims": 4.9
+  },
+  {
+   "tag type": "Trigger",
+   "label": "When Reversing",
+   "claims": 41,
+   "% of claims": 4.1
+  },
+  {
+   "tag type": "Trigger",
+   "label": "Source/Station Change",
+   "claims": 31,
+   "% of claims": 3.1
+  },
+  {
+   "tag type": "Trigger",
+   "label": "After Software Update",
+   "claims": 16,
+   "% of claims": 1.6
+  },
+  {
+   "tag type": "Trigger",
+   "label": "During Phone Call",
+   "claims": 11,
+   "% of claims": 1.1
+  },
+  {
+   "tag type": "Trigger",
+   "label": "With Trailer Connected",
+   "claims": 4,
+   "% of claims": 0.4
+  },
+  {
+   "tag type": "Trigger",
+   "label": "Using Navigation",
+   "claims": 4,
+   "% of claims": 0.4
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "Intermittent",
+   "claims": 239,
+   "% of claims": 23.9
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "Repeat Visit",
+   "claims": 92,
+   "% of claims": 9.2
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "While Driving",
+   "claims": 38,
+   "% of claims": 3.8
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "Remote Start",
+   "claims": 20,
+   "% of claims": 2.0
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "Cold/Hot Weather",
+   "claims": 5,
+   "% of claims": 0.5
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "Trailer Connected",
+   "claims": 4,
+   "% of claims": 0.4
+  },
+  {
+   "tag type": "Additional Context",
+   "label": "Rain/Moisture",
+   "claims": 2,
+   "% of claims": 0.2
+  }
+ ],
+ "n_claims": 1000
+}

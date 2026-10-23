@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HanuAi ML Assessment</title>
+<style>
+  :root { --ink:#14213d; --accent:#2F6DB5; --muted:#6b7280; --bg:#f6f8fb; --line:#e5e7eb; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:-apple-system,"Helvetica Neue",Arial,sans-serif; color:#1f2937; background:#fff; line-height:1.5; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 40px 22px 70px; }
+  h1 { font-size: 28px; margin: 0 0 6px; color: var(--ink); letter-spacing: -.3px; }
+  .sub { color: var(--muted); margin-bottom: 28px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+  .card { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 20px; }
+  .card h2 { margin: 0 0 4px; font-size: 18px; color: var(--ink); }
+  .card .tag { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent); font-weight: 700; }
+  .card p { margin: 8px 0 12px; font-size: 14.5px; }
+  .card ul { margin: 0 0 14px; padding-left: 18px; font-size: 14px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 8px 14px; border-radius: 6px; font-size: 14px; font-weight: 600; }
+  .links a { color: var(--accent); text-decoration: none; font-size: 14px; margin-right: 14px; }
+  .note { margin-top: 26px; background: #fff7e6; border-left: 4px solid #D9822B; padding: 12px 16px; border-radius: 0 6px 6px 0; font-size: 14px; }
+  footer { margin-top: 30px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HanuAi ML Assessment</h1>
+  <div class="sub">Scraping and sentiment analysis of public product reviews, and text mining of vehicle warranty claims.</div>
+
+  <div class="grid">
+    <div class="card">
+      <div class="tag">Task 1</div>
+      <h2>Web scraping and sentiment analysis</h2>
+      <p>Apple AirPods 4 on Best Buy Canada: 127 reviews, sentiment by VADER and an open-source LLM, aspect-level tags, and business recommendations.</p>
+      <ul>
+        <li>Text reviewers average 3.6 stars vs 4.5 for star-only</li>
+        <li>Sound and fit lead the complaints; returns policy is the weakest retail aspect</li>
+        <li>Selenium scraper was blocked and stopped; collection route documented</li>
+      </ul>
+      <a class="btn" href="task1.html">Read the report</a>
+      <div class="links" style="margin-top:12px">
+        <a href="https://github.com/Aravindashok18/hanuai-ml-assessment/blob/main/Task1_Web_Scraping_Sentiment/Task1_Scraping_Sentiment.ipynb">Notebook</a>
+        <a href="https://github.com/Aravindashok18/hanuai-ml-assessment/tree/main/Task1_Web_Scraping_Sentiment">Files</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="tag">Task 2</div>
+      <h2>Advanced EDA and text mining</h2>
+      <p>1,000 infotainment warranty claims: free text turned into structured tags, issue types, trends tested with multiple-testing correction, clusters and root-cause hypotheses.</p>
+      <ul>
+        <li>The radio is replaced in 88% of claims, whatever the symptom</li>
+        <li>One statistically real trend: "radio stays on / drains battery" up to ~11% in 2021</li>
+        <li>Camera/video complaints concentrate in three model lines</li>
+      </ul>
+      <a class="btn" href="task2.html">Read the report</a>
+      <div class="links" style="margin-top:12px">
+        <a href="https://github.com/Aravindashok18/hanuai-ml-assessment/blob/main/Task2_EDA_Text_Mining/Task2_EDA_TextMining.ipynb">Notebook</a>
+        <a href="https://github.com/Aravindashok18/hanuai-ml-assessment/tree/main/Task2_EDA_Text_Mining">Files</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="note"><b>Read with care.</b> Task 2 figures are claim <i>counts</i>, not failure rates (no production volumes), and its tags were validated against only five provided examples. Task 1's aspect tags have only been informally checked. Both reports state their limitations in full.</div>
+
+  <footer><a href="https://github.com/Aravindashok18/hanuai-ml-assessment" style="color:inherit">Source repository</a></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# The assessment dataset was provided by HanuAi and is not redistributed in this repository.
+# Place it here to re-run the Task 2 notebook.
+Task2_EDA_Text_Mining/Hanuai_task2_assignment.csv

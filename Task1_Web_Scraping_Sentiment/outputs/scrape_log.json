@@ -1,0 +1,62 @@
+{
+ "product": {
+  "name": "Apple AirPods 4 In-Ear True Wireless Earbuds with USB-C Charging Case",
+  "sku": "18470962",
+  "url": "https://www.bestbuy.ca/en-ca/product/apple-airpods-4-in-ear-true-wireless-earbuds-with-usb-c-charging-case/18470962",
+  "reviews_page": "https://www.bestbuy.ca/en-ca/product/apple-airpods-4-in-ear-true-wireless-earbuds-with-usb-c-charging-case/18470962/review"
+ },
+ "policy_checks": {
+  "robots_txt": "/en-ca/product/ is explicitly Allowed; the reviews page lives under it; /search, /account, /basket, /checkout, /create-review are Disallowed and were never visited",
+  "terms_of_use": "Conditions of Use section 7 prohibits scraping/data-mining 'in any form and by any means'. The user was informed and explicitly chose to proceed with a small, polite collection; this is disclosed in the report"
+ },
+ "limits_agreed_with_user": [
+  "one product",
+  "public pages only (no login, no /search)",
+  "throttled with 2.5-5 s random delays",
+  "stop on any block or CAPTCHA",
+  "about 15-30 page actions (hard budget in code: 60)"
+ ],
+ "attempt_1_selenium_headless_chrome": {
+  "outcome": "BLOCKED - 'Access Denied' page on the very first page load",
+  "unique_reviews": 0,
+  "show_more_clicks": 0,
+  "action_taken": "Scraper stopped immediately as designed; no retry, no spoofing, no proxy, no CAPTCHA handling. User was asked how to proceed."
+ },
+ "attempt_2_in_app_browser": {
+  "method": "Unmodified Chromium browser pane of the Claude desktop app, driven by an in-page collector that uses the same CSS selectors, parsing rules, delays and click budget as the Selenium scraper",
+  "collected_on_utc": "2026-10-23T03:44Z",
+  "show_more_clicks": 28,
+  "sort_orders_applied": [
+   "Newest (paged to exhaustion)",
+   "Most Helpful",
+   "Most Relevant",
+   "Highest Rating",
+   "Lowest Rating",
+   "Oldest (first ~20 each)"
+  ],
+  "verified_buyers_only_filter": "Applied: the site reports 'no reviews by verified buyers yet' for this product, so no review carries a verified-buyer flag",
+  "stop_reason": "'Show More' button disappeared (list exhausted)"
+ },
+ "result": {
+  "unique_reviews_captured": 127,
+  "reviews_with_title_and_text": 64,
+  "rating_only_reviews": 63,
+  "header_total_reviews": 139,
+  "captured_rating_counts": {
+   "5": 79,
+   "4": 17,
+   "3": 7,
+   "2": 5,
+   "1": 19
+  },
+  "site_rating_breakdown": {
+   "5": 89,
+   "4": 17,
+   "3": 8,
+   "2": 5,
+   "1": 20
+  },
+  "note": "The list ends at 127 of the 139 ratings shown in the header (10 five-star, 1 three-star, 1 one-star not listed - probably other-language or hidden reviews)"
+ },
+ "integrity": "Data moved from the page to disk in 4 slices, each verified against a UTF-16 DJB2 checksum computed in the page (all matched)"
+}

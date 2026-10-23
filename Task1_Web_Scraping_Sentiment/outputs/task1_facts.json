@@ -1,0 +1,491 @@
+{
+ "scrape_log": {
+  "product": {
+   "name": "Apple AirPods 4 In-Ear True Wireless Earbuds with USB-C Charging Case",
+   "sku": "18470962",
+   "url": "https://www.bestbuy.ca/en-ca/product/apple-airpods-4-in-ear-true-wireless-earbuds-with-usb-c-charging-case/18470962",
+   "reviews_page": "https://www.bestbuy.ca/en-ca/product/apple-airpods-4-in-ear-true-wireless-earbuds-with-usb-c-charging-case/18470962/review"
+  },
+  "policy_checks": {
+   "robots_txt": "/en-ca/product/ is explicitly Allowed; the reviews page lives under it; /search, /account, /basket, /checkout, /create-review are Disallowed and were never visited",
+   "terms_of_use": "Conditions of Use section 7 prohibits scraping/data-mining 'in any form and by any means'. The user was informed and explicitly chose to proceed with a small, polite collection; this is disclosed in the report"
+  },
+  "limits_agreed_with_user": [
+   "one product",
+   "public pages only (no login, no /search)",
+   "throttled with 2.5-5 s random delays",
+   "stop on any block or CAPTCHA",
+   "about 15-30 page actions (hard budget in code: 60)"
+  ],
+  "attempt_1_selenium_headless_chrome": {
+   "outcome": "BLOCKED - 'Access Denied' page on the very first page load",
+   "unique_reviews": 0,
+   "show_more_clicks": 0,
+   "action_taken": "Scraper stopped immediately as designed; no retry, no spoofing, no proxy, no CAPTCHA handling. User was asked how to proceed."
+  },
+  "attempt_2_in_app_browser": {
+   "method": "Unmodified Chromium browser pane of the Claude desktop app, driven by an in-page collector that uses the same CSS selectors, parsing rules, delays and click budget as the Selenium scraper",
+   "collected_on_utc": "2026-10-23T03:44Z",
+   "show_more_clicks": 28,
+   "sort_orders_applied": [
+    "Newest (paged to exhaustion)",
+    "Most Helpful",
+    "Most Relevant",
+    "Highest Rating",
+    "Lowest Rating",
+    "Oldest (first ~20 each)"
+   ],
+   "verified_buyers_only_filter": "Applied: the site reports 'no reviews by verified buyers yet' for this product, so no review carries a verified-buyer flag",
+   "stop_reason": "'Show More' button disappeared (list exhausted)"
+  },
+  "result": {
+   "unique_reviews_captured": 127,
+   "reviews_with_title_and_text": 64,
+   "rating_only_reviews": 63,
+   "header_total_reviews": 139,
+   "captured_rating_counts": {
+    "5": 79,
+    "4": 17,
+    "3": 7,
+    "2": 5,
+    "1": 19
+   },
+   "site_rating_breakdown": {
+    "5": 89,
+    "4": 17,
+    "3": 8,
+    "2": 5,
+    "1": 20
+   },
+   "note": "The list ends at 127 of the 139 ratings shown in the header (10 five-star, 1 three-star, 1 one-star not listed - probably other-language or hidden reviews)"
+  },
+  "integrity": "Data moved from the page to disk in 4 slices, each verified against a UTF-16 DJB2 checksum computed in the page (all matched)"
+ },
+ "capture": {
+  "n": 127,
+  "with_text": 64,
+  "rating_only": 63,
+  "mean_rating": 4.039370078740157,
+  "site_mean_rating": 4.079136690647482,
+  "site_total": 139,
+  "not_listed": {
+   "5": 10,
+   "4": 0,
+   "3": 1,
+   "2": 0,
+   "1": 1
+  }
+ },
+ "eda": {
+  "avg_text": 3.5625,
+  "avg_rating_only": 4.523809523809524,
+  "neg_share_text": 0.296875,
+  "neg_share_rating_only": 0.07936507936507936,
+  "recommend_rate": 0.7401574803149606,
+  "sub_means": {
+   "quality": 4.180327868852459,
+   "value": 4.049586776859504,
+   "ease_of_use": 4.08130081300813
+  },
+  "date_range": [
+   "2024-09-28",
+   "2026-10-03"
+  ],
+  "median_words": 35
+ },
+ "sentiment_eval": {
+  "n_text": 64,
+  "table": {
+   "VADER (lexicon)": {
+    "accuracy": 0.781,
+    "macro-F1": 0.527,
+    "pos-vs-neg accuracy*": 0.862
+   },
+   "FLAN-T5 (zero-shot LLM)": {
+    "accuracy": 0.859,
+    "macro-F1": 0.591,
+    "pos-vs-neg accuracy*": 0.948
+   }
+  },
+  "confusion": {
+   "VADER (lexicon)": [
+    [
+     12,
+     0,
+     7
+    ],
+    [
+     1,
+     0,
+     5
+    ],
+    [
+     1,
+     0,
+     38
+    ]
+   ],
+   "FLAN-T5 (zero-shot LLM)": [
+    [
+     18,
+     0,
+     1
+    ],
+    [
+     4,
+     0,
+     2
+    ],
+    [
+     2,
+     0,
+     37
+    ]
+   ]
+  },
+  "flan_ok": true
+ },
+ "sentiment_mix": {
+  "star rating": {
+   "Positive": 57,
+   "Neutral": 1,
+   "Negative": 5
+  },
+  "text (FLAN-T5 zero-shot)": {
+   "Positive": 40,
+   "Neutral": 0,
+   "Negative": 24
+  }
+ },
+ "mixed": {
+  "n": 13,
+  "of": 64,
+  "by_rating": {
+   "1": {
+    "single-polarity": 11,
+    "MIXED (praise + complaint)": 3
+   },
+   "2": {
+    "single-polarity": 4,
+    "MIXED (praise + complaint)": 1
+   },
+   "3": {
+    "single-polarity": 5,
+    "MIXED (praise + complaint)": 1
+   },
+   "4": {
+    "single-polarity": 5,
+    "MIXED (praise + complaint)": 4
+   },
+   "5": {
+    "single-polarity": 26,
+    "MIXED (praise + complaint)": 4
+   }
+  }
+ },
+ "aspects": [
+  {
+   "aspect": "Sound Quality",
+   "negative": 12,
+   "neutral": 0,
+   "positive": 17,
+   "mentions": 29,
+   "net sentiment": 0.1724137931034483,
+   "target": "product"
+  },
+  {
+   "aspect": "Fit & Comfort",
+   "negative": 12,
+   "neutral": 0,
+   "positive": 13,
+   "mentions": 25,
+   "net sentiment": 0.04,
+   "target": "product"
+  },
+  {
+   "aspect": "Price & Value",
+   "negative": 9,
+   "neutral": 0,
+   "positive": 10,
+   "mentions": 19,
+   "net sentiment": 0.05263157894736842,
+   "target": "product"
+  },
+  {
+   "aspect": "Connectivity & Compatibility",
+   "negative": 9,
+   "neutral": 0,
+   "positive": 6,
+   "mentions": 15,
+   "net sentiment": -0.2,
+   "target": "product"
+  },
+  {
+   "aspect": "Store Service & Staff",
+   "negative": 6,
+   "neutral": 0,
+   "positive": 9,
+   "mentions": 15,
+   "net sentiment": 0.2,
+   "target": "retail"
+  },
+  {
+   "aspect": "Delivery & Pickup",
+   "negative": 3,
+   "neutral": 0,
+   "positive": 8,
+   "mentions": 11,
+   "net sentiment": 0.45454545454545453,
+   "target": "retail"
+  },
+  {
+   "aspect": "Returns & Policies",
+   "negative": 7,
+   "neutral": 0,
+   "positive": 3,
+   "mentions": 10,
+   "net sentiment": -0.4,
+   "target": "retail"
+  },
+  {
+   "aspect": "Features & Controls",
+   "negative": 5,
+   "neutral": 0,
+   "positive": 4,
+   "mentions": 9,
+   "net sentiment": -0.1111111111111111,
+   "target": "product"
+  },
+  {
+   "aspect": "Battery & Charging",
+   "negative": 3,
+   "neutral": 0,
+   "positive": 3,
+   "mentions": 6,
+   "net sentiment": 0.0,
+   "target": "product"
+  },
+  {
+   "aspect": "Build Quality & Defects",
+   "negative": 4,
+   "neutral": 0,
+   "positive": 2,
+   "mentions": 6,
+   "net sentiment": -0.3333333333333333,
+   "target": "product"
+  }
+ ],
+ "feedback_target": {
+  "Product": 36,
+  "Both": 14,
+  "Retail experience": 9,
+  "General / unspecific": 4,
+  "Off-topic (other product)": 1
+ },
+ "sub_ratings_mean": {
+  "Product Quality": 4.180327868852459,
+  "Price & Value": 4.049586776859504,
+  "Ease of Use": 4.08130081300813
+ },
+ "drivers": [
+  {
+   "aspect": "Battery & Charging",
+   "% of negative reviews citing it negatively": 0.08333333333333333,
+   "% of positive reviews praising it": 0.05,
+   "type": "product"
+  },
+  {
+   "aspect": "Build Quality & Defects",
+   "% of negative reviews citing it negatively": 0.08333333333333333,
+   "% of positive reviews praising it": 0.05,
+   "type": "product"
+  },
+  {
+   "aspect": "Connectivity & Compatibility",
+   "% of negative reviews citing it negatively": 0.3333333333333333,
+   "% of positive reviews praising it": 0.15,
+   "type": "product"
+  },
+  {
+   "aspect": "Delivery & Pickup",
+   "% of negative reviews citing it negatively": 0.041666666666666664,
+   "% of positive reviews praising it": 0.2,
+   "type": "retail"
+  },
+  {
+   "aspect": "Features & Controls",
+   "% of negative reviews citing it negatively": 0.16666666666666666,
+   "% of positive reviews praising it": 0.1,
+   "type": "product"
+  },
+  {
+   "aspect": "Fit & Comfort",
+   "% of negative reviews citing it negatively": 0.4166666666666667,
+   "% of positive reviews praising it": 0.3,
+   "type": "product"
+  },
+  {
+   "aspect": "Price & Value",
+   "% of negative reviews citing it negatively": 0.25,
+   "% of positive reviews praising it": 0.225,
+   "type": "product"
+  },
+  {
+   "aspect": "Returns & Policies",
+   "% of negative reviews citing it negatively": 0.25,
+   "% of positive reviews praising it": 0.05,
+   "type": "retail"
+  },
+  {
+   "aspect": "Sound Quality",
+   "% of negative reviews citing it negatively": 0.4583333333333333,
+   "% of positive reviews praising it": 0.425,
+   "type": "product"
+  },
+  {
+   "aspect": "Store Service & Staff",
+   "% of negative reviews citing it negatively": 0.20833333333333334,
+   "% of positive reviews praising it": 0.2,
+   "type": "retail"
+  }
+ ],
+ "neg_pos_counts": {
+  "positive": 40,
+  "negative": 24,
+  "neutral": 0
+ },
+ "terms_neg": [
+  "different",
+  "week",
+  "purchasing",
+  "pain",
+  "never",
+  "use",
+  "left",
+  "purchased",
+  "new",
+  "bad",
+  "not",
+  "lot"
+ ],
+ "terms_pos": [
+  "amazing",
+  "comfortable",
+  "great",
+  "perfect",
+  "fast",
+  "gen",
+  "they're",
+  "noise",
+  "difference",
+  "old",
+  "pick",
+  "good"
+ ],
+ "mismatch": {
+  "high_star_negative_text": 2,
+  "low_star_positive_text": 1
+ },
+ "helpful": {
+  "Negative": {
+   "count": 24,
+   "mean": 1.67,
+   "max": 10
+  },
+  "Positive": {
+   "count": 40,
+   "mean": 1.52,
+   "max": 14
+  }
+ },
+ "top_helpful": [
+  {
+   "helpful_votes": 14,
+   "rating": 4,
+   "sentiment_overall": "Positive",
+   "title": "Good but really don\u2019t like how Apple just wants $"
+  },
+  {
+   "helpful_votes": 14,
+   "rating": 3,
+   "sentiment_overall": "Positive",
+   "title": "They\u2019re pretty good"
+  },
+  {
+   "helpful_votes": 13,
+   "rating": 5,
+   "sentiment_overall": "Positive",
+   "title": "Big Difference"
+  },
+  {
+   "helpful_votes": 10,
+   "rating": 5,
+   "sentiment_overall": "Positive",
+   "title": "Amazing"
+  },
+  {
+   "helpful_votes": 10,
+   "rating": 1,
+   "sentiment_overall": "Negative",
+   "title": "Bad move apple"
+  },
+  {
+   "helpful_votes": 9,
+   "rating": 1,
+   "sentiment_overall": "Negative",
+   "title": "Terrible overall"
+  }
+ ],
+ "target_shares": {
+  "retail_share": 0.359375,
+  "product_aspect_sentiment": {
+   "positive": 0.5045871559633027,
+   "negative": 0.4954128440366973
+  },
+  "retail_aspect_sentiment": {
+   "positive": 0.5555555555555556,
+   "negative": 0.4444444444444444
+  },
+  "off_topic": 1
+ },
+ "n_reviews": 127,
+ "tag_examples": [
+  {
+   "ID": "BB18470962-A9E9632DCA",
+   "TITLE": "Purchase if AirPods",
+   "REVIEW": "What made this transaction so pleasant was dealing with your sales representative, Jessica",
+   "SENTIMENT": "['Store Service & Staff (Pos)']"
+  },
+  {
+   "ID": "BB18470962-041E2D0EE6",
+   "TITLE": "Works as expected.",
+   "REVIEW": "Happy with purchase, was for my son. He loves them.",
+   "SENTIMENT": "['Overall Satisfaction (Pos)']"
+  },
+  {
+   "ID": "BB18470962-3A24FAAD65",
+   "TITLE": "Product now working properly",
+   "REVIEW": "Left ear bud is defective and couldn\u2019t return or exchange",
+   "SENTIMENT": "['Build Quality & Defects (Neg)', 'Returns & Policies (Neg)']"
+  },
+  {
+   "ID": "BB18470962-3AD357F120",
+   "TITLE": "Great",
+   "REVIEW": "Air pods 4 are great for my daughter she loves them !!",
+   "SENTIMENT": "['Overall Satisfaction (Pos)']"
+  },
+  {
+   "ID": "BB18470962-C22D599D93",
+   "TITLE": "Fast and easy",
+   "REVIEW": "came faster than the expected date, clean and safely packaged no damages.",
+   "SENTIMENT": "['Delivery & Pickup (Pos)']"
+  }
+ ],
+ "avg_rating": 4.039370078740157,
+ "flan_ok": true,
+ "sentiment_overall_counts": {
+  "Positive": 97,
+  "Negative": 29,
+  "Neutral": 1
+ }
+}
