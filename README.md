@@ -1,5 +1,7 @@
 # HanuAi ML Assessment
 
+**Published reports:** https://aravindashok18.github.io/hanuai-ml-assessment/
+
 Two data-analytics tasks on real-world text: **(1)** scraping and sentiment analysis of public product reviews, and **(2)** exploratory analysis and text mining of 1,000 vehicle warranty claims.
 
 | | Task 1 - Web scraping and sentiment | Task 2 - Advanced EDA and text mining |
